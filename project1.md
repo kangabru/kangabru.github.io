@@ -1,7 +1,10 @@
-<link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
-<link href="/assets/index.css" rel="stylesheet">
+---
+tabtitle: Project 1
+---
 
-## Project 1
+# Project 1
+
+## Overview
 
 Project 1 description
 

@@ -1,7 +1,10 @@
-<link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
-<link href="/assets/index.css" rel="stylesheet">
+---
+# tabtitle: # This is the home page so don't add an additional title
+---
 
-## Portfolio
+# Kangabru Portfolio
+
+## Overview
 
 [Test Page Link](/project1)
 
