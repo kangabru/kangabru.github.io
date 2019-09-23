@@ -10,7 +10,7 @@ html {
 .tags>span {
     font-size       : 0.9em;
     color           : white;
-    background-color: lightblue;
+    background-color: #84c3f3;
     padding         : 0.3rem 0.6rem;
     margin          : 0 0.3rem 0.3rem 0;
     border-radius   : 0.3rem;
@@ -44,4 +44,15 @@ blockquote::after {
     top   : unset;
     right : 0;
     bottom: 0;
+}
+
+header {
+    background-color: #fefbee;
+    padding         : 20px !important;
+    padding-bottom  : 0 !important;
+    border-radius   : 10px;
+}
+
+section {
+    border: none !important;
 }
