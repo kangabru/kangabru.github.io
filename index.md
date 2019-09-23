@@ -4,13 +4,15 @@
 
 # Kangabru Portfolio
 
-## Overview
+G'day bru! What you see below is a masterclass in programming intellect and innovation. Never before has such an esteemed collection of programming apps been up for display before your very eyes.... that is until, today.
 
-[Test Page Link](/project1)
+Welcome my venerated guest. Please enjoy.
 
 ---
 
-### Category Name 1
+<!-- ### [Where is Kangabru?](/project/where_is_kangabru)
+
+Like, where is he man? [Well visit here to find out](). This personal site was built for friends and family to keep track of my travels around the world. It also has some pretty photos.
 
 [Project 1 Title](/project1)
 <img src="images/test.png?raw=true"/>
@@ -20,32 +22,25 @@
     <span>Tag #3</span>
 </div>
 
----
-[Project 2 Title](/project1)
-<img src="images/test.png?raw=true"/>
+--- -->
+
+
+{% for post in site.posts %}
+
+### [{{ post.title }}]({{ post.url }})
+
+{{ post.description }}
+
+<img src="{{ post.image_url }}"/>
+
 <div class="tags">
-    <span>Long Tag #1</span>
-    <span>Tag #2</span>
-    <span>Longer Tag #3</span>
+
+{% for tag in post.tags %}
+    <span>{{ tag }}</span>
+{% endfor %}
+
 </div>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/test.png?raw=true"/>
-<div class="tags">
-    <span>Tag #1</span>
-    <span>Tag #2</span>
-    <span>Tag #3</span>
-</div>
 
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
+{% endfor %}

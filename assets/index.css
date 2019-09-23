@@ -1,3 +1,7 @@
+html {
+    border-top: 0.3rem solid #ffb84d;
+}
+
 .tags {
     display  : flex;
     flex-wrap: wrap;
@@ -11,4 +15,33 @@
     margin          : 0 0.3rem 0.3rem 0;
     border-radius   : 0.3rem;
     pointer-events  : none;
+}
+
+.date {
+    font-size: 1.2em;
+    color    : #888;
+}
+
+blockquote {
+    position: relative;
+    margin  : 20px 0 !important;
+    border  : none !important;
+}
+
+blockquote::before,
+blockquote::after {
+    content    : "''";
+    font-size  : 4em;
+    position   : absolute;
+    left       : -0.4rem;
+    top        : 0.7rem;
+    opacity    : 0.2;
+    line-height: 0;
+}
+
+blockquote::after {
+    left  : unset;
+    top   : unset;
+    right : 0;
+    bottom: 0;
 }
