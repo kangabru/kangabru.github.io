@@ -18,8 +18,9 @@ html {
 }
 
 .date {
-    font-size: 1.2em;
-    color    : #888;
+    font-size   : 1.2em;
+    color       : #888;
+    margin-right: 20px;
 }
 
 blockquote {
@@ -55,4 +56,32 @@ header {
 
 section {
     border: none !important;
+}
+
+.big-link,
+.big-link:hover,
+.big-link:focus {
+    background-color: #ffb84d;
+    color           : white;
+    padding         : 10px 15px;
+    border-radius   : 10px;
+    white-space     : nowrap;
+    font-weight     : bold;
+    position        : relative;
+}
+
+.big-link:hover {
+    background-color: #ffa63a;
+}
+
+.image-small {
+    max-width: 60%;
+    margin   : 0 auto;
+    display  : block;
+}
+
+.img-with-text {
+    margin-right: auto;
+    margin-left : auto;
+    text-align  : center;
 }

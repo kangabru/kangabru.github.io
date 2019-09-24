@@ -12,17 +12,34 @@
 
         <section>
             <h1>{{ page.title }}</h1>
-            <p class="date">{{ page.when }}</p>
-            <p>{{ page.description }}</p>
 
+            {% if page.when or page.link %}
             <p>
-                <img src="{{ page.image_url | relative_url }}" />
-                <div class="tags">
-                    {% for tag in page.tags %}
-                    <span>{{ tag }}</span>
-                    {% endfor %}
-                </div>
+                {% if page.when %}
+                <span class="date">{{ page.when }}</span>
+                {% endif %}
+
+                {% if page.link %}
+                <a href="{{ page.link }}" class="big-link" target="_blank">View it live here</a>
+                {% endif %}
             </p>
+            {% endif %}
+
+            {% if page.description %}
+            <p>{{ page.description }}</p>
+            {% endif %}
+
+            {% if page.image_url %}
+            <img src="{{ page.image_url | relative_url }}" />
+            {% endif %}
+
+            {% if page.tags and page.tags.size > 0 %}
+            <p class="tags">
+                {% for tag in page.tags %}
+                <span>{{ tag }}</span>
+                {% endfor %}
+            </p>
+            {% endif %}
 
             <hr>
 
