@@ -70,4 +70,4 @@ This is a single page application built from the ground up by me. The app utilis
 
 ## Mistakes and Challenges
 
-[Continue the article here]({% post_url 2019-03-26-where-is-kangabru-challenges %})
+[Continue the article here]({% post_url 2019-03-26-where-is-kangabru-challenges %}){:.big-link}

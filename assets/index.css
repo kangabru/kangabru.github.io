@@ -61,7 +61,7 @@ section {
 .big-link,
 .big-link:hover,
 .big-link:focus {
-    background-color: #ffb84d;
+    background-color: #84c3f3;
     color           : white;
     padding         : 10px 15px;
     border-radius   : 10px;
@@ -71,6 +71,14 @@ section {
 }
 
 .big-link:hover {
+    background-color: #65b4f0;
+}
+
+.big-link.alt {
+    background-color: #ffb84d;
+}
+
+.big-link.alt:hover {
     background-color: #ffa63a;
 }
 
