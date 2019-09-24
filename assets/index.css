@@ -85,3 +85,11 @@ section {
     margin-left : auto;
     text-align  : center;
 }
+
+code,
+pre {
+    background-color: #faf9f4;
+    padding         : 4px 6px;
+    border-radius   : 3px;
+    font-family     : "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -9,7 +9,8 @@ link: https://whereiskangabru.com/
 ---
 
 ## Features
-'Where is Kangabru?' is all about showcasing beautiful places I have visited in a fun an interactive way. Friends and family can see where I am, but also explore my favourite places around the globe.
+
+`Where is Kangabru?` is all about showcasing beautiful places I have visited in a fun and interactive way. Friends and family can see where I am, but also explore my favourite places around the globe.
 
 <blockquote>
 I love it, I can keep an eye of him while he's off on his amazing adventures.<br>

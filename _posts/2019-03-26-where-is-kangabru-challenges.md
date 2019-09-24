@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where is Kangabru? Mistake and Challenges
+title: Where is Kangabru? Mistakes and Challenges
 original: 2019-01-02-where-is-kangabru
 hidden: 1
 ---
