@@ -7,11 +7,18 @@ image_url: images/glacier.jpg
 tags: [Python, React, AWS S3, Electron, Typescript, Redux]
 ---
 
+## Key Points
+- A modern React app built for desktop using Electron with a Python script backend.
+- Summarises and uploads 100s of gigabytes of files per month to S3.
+- Demonstrates a successful implementation of an unorthodox technology stack.
+
+---
+
 ## Features
 
 `Glacier Archiver` is the perfect assistant for me to back up endless apply of photos and videos. It's also quite performant despite the name.
 
-I generate a lot of data through my travel and photography habbits. In fear of losing this data on the road, I craved a backup solution that was easy to use and secured in multiple locations. Consumer solutions didn't seem to cut it, and thus, a new project was born.
+I generate a lot of data through my travel and photography habits. In fear of losing this data on the road, I craved a backup solution that was easy to use and secured in multiple locations. Consumer solutions didn't seem to cut it, and thus, a new project was born.
 
 It features:
 

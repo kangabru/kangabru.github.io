@@ -2,13 +2,13 @@ theme: jekyll-theme-minimal
 # google_analytics: UA-123
 
 logo: images/logo.png
-title: Kangabru Portfolio
+title: Scott Gibbs Portfolio
 description:
   G'day! I'm Scott, a developer with a love for building awesome apps.<br>
   <br>
-  I'm currently in search of new opportunies. If you're in need of a <strong>Full Stack Developer</strong>, don't be a stranger!<br>
+  <strong>I'm currently in search of new opportunies.</strong> If you're in need of a Full Stack Developer then don't be a stranger!<br>
   <br>
   Enjoy my portfolio and contact me here...<br>
   <br>
-  <a href="https://www.linkedin.com/in//">LinkedIn Profile</a><br>
-  <a href="https://www.github.com//">Github Profile</a>
+  <a href="https://www.linkedin.com/in/scott-gibbs-52065380/">LinkedIn Profile</a><br>
+  <a href="{{ site.github.owner_url }}">Github Profile</a>

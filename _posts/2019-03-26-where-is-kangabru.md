@@ -2,10 +2,17 @@
 layout: post
 title: Where is Kangabru?
 description: Like, where is he man? Well this site lets you find out! Originally built for friends and family, this web app lets you explore my adventures with a map and pretty photos.
-when: March 2019
+when: Mar 2019
 image_url: /images/wikb_home.jpg
 tags: [React, Firebase, Typescript, Redux]
 link: https://whereiskangabru.com/
+---
+
+## Key Points
+- A single page web app built in React and hosted on Firebase.
+- Incorporates modern technologies and is highly scalable without further effort.
+- Looks pretty cool I reckon 👌
+
 ---
 
 ## Features
@@ -39,7 +46,7 @@ This is a single page application built from the ground up by me. The app utilis
 
 ### ![Firebase](/icons/firebase.png) Firebase
 - Uses Firebase for hosting, auth, photo storage, and cloud functions.
-- Cloud functions are used to create image thumbnails, and to compress DB entires into a single read on page load.
+- Cloud functions are used to create image thumbnails, and to compress DB entries into a single read on page load.
 - Firebase was chosen for fantastic dev usability, and low cost, and Google Cloud Platform integration.
 
 ### ![React](/icons/react.png) React

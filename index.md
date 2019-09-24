@@ -4,9 +4,7 @@
 
 # {{ site.title }}
 
-G'day bru! What you see below is a masterclass in programming intellect and innovation. Never before has such an esteemed collection of programming apps been up for display before your very eyes.... that is until, today.
-
-Welcome my venerated guest. Please enjoy.
+Welcome dear user. Below you will find various projects I have undertaken over the years. Please enjoy!
 
 ---
 

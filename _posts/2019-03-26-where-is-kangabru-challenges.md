@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Where is Kangabru? Mistakes and Challenges
-original: 2019-01-02-where-is-kangabru
 hidden: 1
 ---
 
@@ -40,14 +39,14 @@ Whoops, I did conversion wrong! The original concept used a floating 'image prev
 
 Once the animation was complete, I wanted image navigation controls. Initially the actions were: next, previous, and close. Simple right? I created the UI, wrote the code, hooked it all up to the animation component. Easy enough.
 
-Then I wanted a smooth thumbnail to full image transition. Next I wanted swipe between photos on mobile. Of course I need to let users zoom into the image too. Later I wanted an image preview to the bottom which mimiced the active image.
+Then I wanted a smooth thumbnail to full image transition. Next I wanted swipe between photos on mobile. Of course I need to let users zoom into the image too. Later I wanted an image preview to the bottom which mimicked the active image.
 
 My ideal image viewer became more and more complicated. There are so many lightweight, feature rich components out there that I should have used one of them. Again I could have saved a lot of time, but this is how you learn.
 
 #### Lessons Learnt:
 - I should have designed the component properly before writing code.
 - I should have explored existing options. Something as common as an image viewer would of course have oodles of options. I decision to use one would have been easy.
-- My current image viewer still has problems and could be improved. Instead of adding complexity I might opt for an existing libary in future.
+- My current image viewer still has problems and could be improved. Instead of adding complexity I might opt for an existing library in future.
 
 ---
 
@@ -55,15 +54,15 @@ My ideal image viewer became more and more complicated. There are so many lightw
 
 I wanted a classic masonry grid to showcase my albums and images. The [popular library masonry](https://masonry.desandro.com/) was of course my first choice.
 
-The problem started when trying to retrofit the library into my react app. Ducktape solutions exist to combine the two libraries, but I've never been able to get masonry working quite perfectly. The following issues in my masonry implementation still exist:
+The problem started when trying to retrofit the library into my react app. Duck tape solutions exist to combine the two libraries, but I've never been able to get masonry working quite perfectly. The following issues in my masonry implementation still exist:
 - Sometimes images load in a single vertical line despite my attempts to stop it.
 - Sometimes the whole grid reorders itself on image load, again despite my attempts to stop it.
 
-Whilst the library initially looked promising, it's been frustrating trying to fix the intercompatability issues. In future, I might implement a more [react specific solution](https://codesandbox.io/embed/26mjowzpr).
+Whilst the library initially looked promising, it's been frustrating trying to fix the interoperability issues. In future, I might implement a more [react specific solution](https://codesandbox.io/embed/26mjowzpr).
 
 #### Lessons Learnt:
-- I should have explored more solutions specific to my use case before comitting to a particular library. I.e. React specific libraries instead of the most popular library.
-- Knowing that masonry uses JQuery, I should have questioned its interoperability with React and researched some problems that might hav arrisen.
+- I should have explored more solutions specific to my use case before committing to a particular library. I.e. React specific libraries instead of the most popular library.
+- Knowing that masonry uses JQuery, I should have questioned its interoperability with React and researched some problems that might have arisen.
 
 ---
 

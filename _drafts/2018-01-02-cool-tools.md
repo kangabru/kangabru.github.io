@@ -8,9 +8,15 @@ tags: [React JS, Python, AWS S3, Electron]
 ---
 
 ## Details
+- Bildebeast
 - More info
 - What was it built with
 - Nice graphic, gif, demo where appropriate
+
+<blockquote>
+BILDEBEAST IS AWESOME!<br>
+- Fellow Colleague (for real)
+</blockquote>
 
 <blockquote>
 I love it, I can keep an eye of him while he's off on his amazing adventures.<br>
