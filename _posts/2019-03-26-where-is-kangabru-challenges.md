@@ -5,7 +5,7 @@ original: 2019-01-02-where-is-kangabru
 hidden: 1
 ---
 
-[Back to original article here]({% post_url 2019-01-02-where-is-kangabru %})
+[Back to original article here]({% post_url 2019-03-26-where-is-kangabru %})
 
 ---
 
@@ -67,4 +67,4 @@ Whilst the library initially looked promising, it's been frustrating trying to f
 
 ---
 
-[Back to original article here]({% post_url 2019-01-02-where-is-kangabru %})
+[Back to original article here]({% post_url 2019-03-26-where-is-kangabru %})

@@ -2,9 +2,9 @@
 layout: post
 title: Where is Kangabru?
 description: Like, where is he man? Well this site lets you find out! Originally built for friends and family, this web app lets you explore my adventures with a map and pretty photos.
-when: Mar 2019
+when: March 2019
 image_url: /images/wikb_home.jpg
-tags: [Typescript, React, Redux, Firebase]
+tags: [React, Firebase, Typescript, Redux]
 link: https://whereiskangabru.com/
 ---
 
@@ -69,4 +69,4 @@ This is a single page application built from the ground up by me. The app utilis
 
 ## Mistakes and Challenges
 
-[Continue the article here]({% post_url 2019-01-02-where-is-kangabru-challenges %})
+[Continue the article here]({% post_url 2019-03-26-where-is-kangabru-challenges %})
