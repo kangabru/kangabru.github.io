@@ -17,25 +17,29 @@ link: https://whereiskangabru.com/
 
 ## Features
 
-`Where is Kangabru?` is all about showcasing beautiful places I have visited in a fun and interactive way. Friends and family can see where I am, but also explore my favourite places around the globe.
+`Where is Kangabru?` is all about showcasing beautiful places that I have visited in a fun and interactive way. Friends and family can see where I am, and also explore my favourite places around the globe.
 
 <blockquote>
-I love it, I can keep an eye of him while he's off on his amazing adventures.<br>
-- My Mom
+I love it, I can keep an eye on him while he's off on his amazing adventures.<br>
+- Mom
 </blockquote>
 
 It sports:
 
 {:.img-with-text}
-![Map Screen](/images/wikb_map.jpg)
+![Map Screen](/images/wikb_map.jpg)<br>
 An interactive map with my current and previous locations.
 
-{:.img-with-text}
-![Albums Screen](/images/wikb_albums.jpg)
-A vast and growing collection of my travel photos and albums.
+---
 
 {:.img-with-text}
-![CMD and Game Screen](/images/wikb_cms_game.jpg)
+![Albums Screen](/images/wikb_albums.jpg)<br>
+A vast and growing collection of my travel photos and albums.
+
+---
+
+{:.img-with-text}
+![CMD and Game Screen](/images/wikb_cms_game.jpg)<br>
 [A fully playable game!](https://whereiskangabru.com/) and CMS to manage photos and content.
 
 ---
@@ -47,12 +51,12 @@ This is a single page application built from the ground up by me. The app utilis
 ### ![Firebase](/icons/firebase.png) Firebase
 - Uses Firebase for hosting, auth, photo storage, and cloud functions.
 - Cloud functions are used to create image thumbnails, and to compress DB entries into a single read on page load.
-- Firebase was chosen for fantastic dev usability, and low cost, and Google Cloud Platform integration.
+- Firebase was chosen for fantastic dev usability, low cost, and full [GCP](https://cloud.google.com/) integration.
 
 ### ![React](/icons/react.png) React
-- All code is run client side which simplifies deployment. I simply need to host the static files which negates to need to manage a traditional server/DB setup.
-- Allows for a component based design which is allows for complicated, yet maintainable single page applications.
-- React and NPM have an amazing and diverse ecosystem which allows for fast development.
+- All code is run client side which simplifies deployment. I simply host the static files which negates to need to manage a traditional server/DB setup.
+- Allows for a component based design which allows for complicated, yet maintainable single page applications.
+- The diverse React and NPM ecosystem allow me to develop more, faster.
 
 ### ![Redux](/icons/redux.png) Redux
 - Redux is used to manage a centralised application state.
@@ -60,7 +64,7 @@ This is a single page application built from the ground up by me. The app utilis
 - The one way data flow reduces bugs, and allows for easy UI testing based on state data.
 
 ### ![Performance](/icons/cog.png) Performance
-- The initial page load is kilobytes which loads instantly and signals the load is rendering.
+- The initial page load is kilobytes which loads instantly and signals the page is loading.
 - Home page data is loaded in a single DB read, as is the data for each individual album.
 - Server calls, larger client side processes, and UI rendering are all async.
 - Thumbnails are used extensively to improve loading speed and animation performance.
@@ -68,10 +72,10 @@ This is a single page application built from the ground up by me. The app utilis
 ### ![JS Packages](/icons/javascript.png) JS Packages
 - **Tailwinds CSS:** A fantastic library which generates atomic CSS utility classes. This simplifies and reduces the size of CSS, and helps reduce unexpected CSS breakages. It looks great too and simplifies creating responsive CSS.
 - **Leaflet**: Renders and handles all maps used in the app.
-- **Redux Thunk**: Enabled async redux actions.
+- **Redux Thunk**: Enables async redux actions.
 - **React Router**: Enables url navigation with the single page app.
 - **Webpack**: Builds the app. Includes transpiling Typescript, compiling Less, building Tailwinds, running dev/prod builds, tree shaking etc.
-- **Jest**: Used for JS and UI testing.
+- **Jest**: Used for JS, UI, and [snapshot](https://jestjs.io/docs/en/snapshot-testing.html) testing.
 
 ---
 

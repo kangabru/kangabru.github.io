@@ -13,24 +13,26 @@ Embarking on a personal project is always exciting, and for this project I was e
 
 <blockquote>
 The code is right there, it shouldn't be too hard right?<br>
+- Excitable me
 </blockquote>
 
 #### The process
-The original conversion went well:
+Converting the animation example started off well:
 - I reimagined the original `JQuery` code into a standalone `React` component.
 - The algorithm took the clicked image, calculated a CSS transform to make it big, then animated it via CSS. It was buttery smooth, and I was pleased.
 
-What I failed to account for was future enhancements. Naturally wanted some image gallery nav controls shortly after. Some problems:
+What I failed to account for was future enhancements. Naturally I wanted some image gallery nav controls shortly after. Some problems:
 - The enlarged image was the original image element but blown up.
 - If I swapped the image via the gallery, how would I animate to the correct image on close?
 - How would I reinstate the original image on close?
 
-Whoops, I did conversion wrong! The original concept used a floating 'image preview' element and animated that to specific images. Had I intended to have those features beforehand, I would have questioned my original algorithm. I was blindsided by the excitement of building something.
+Whoops, I did the conversion wrong! The original concept used a floating 'image preview' element and animated that to specific images. Had I intended to have those features beforehand, I would have questioned my original algorithm. I was blindsided by the excitement of building something.
+
+With some more work I got the animation working, but it took longer than expected.
 
 #### Lessons Learnt:
 - Breaking new ground takes time to implement, to test, and it still might be buggy.
 - Spec out your design! I was eager to build and jumped in head first. Some simple design planning or specs would have saved me a lot of time.
-- Use libraries where it makes sense. My image gallery still has problems which would
 - Keep it simple stupid! Do you need these animations right now?
 
 ---
@@ -39,13 +41,13 @@ Whoops, I did conversion wrong! The original concept used a floating 'image prev
 
 Once the animation was complete, I wanted image navigation controls. Initially the actions were: next, previous, and close. Simple right? I created the UI, wrote the code, hooked it all up to the animation component. Easy enough.
 
-Then I wanted a smooth thumbnail to full image transition. Next I wanted swipe between photos on mobile. Of course I need to let users zoom into the image too. Later I wanted an image preview to the bottom which mimicked the active image.
+Then I wanted a seamless transition when the thumbnail switched to the full image. Next I wanted swipe between photos on mobile. Of course I need to let users zoom into the image too. Later I wanted an image gallery slider so users could navigate the album easier.
 
 My ideal image viewer became more and more complicated. There are so many lightweight, feature rich components out there that I should have used one of them. Again I could have saved a lot of time, but this is how you learn.
 
 #### Lessons Learnt:
 - I should have designed the component properly before writing code.
-- I should have explored existing options. Something as common as an image viewer would of course have oodles of options. I decision to use one would have been easy.
+- I should have explored existing options. Something as common as an image viewer would of course have oodles of options. The decision to use one would have been easy.
 - My current image viewer still has problems and could be improved. Instead of adding complexity I might opt for an existing library in future.
 
 ---
