@@ -25,12 +25,25 @@ Think of the browser 'inspector' tool, but on steroids!<br>
 - My sales pitch to colleagues
 </blockquote>
 
-Here are some videos of my favourite features:
+---
+
+<div class="img-with-text">
+    <video controls autoplay loop>
+    <source src="/images/quickmock_vids/replace.mp4" type="video/mp4">
+    </video>
+    <br>
+    <span>(Click Play) Example 'replace' feature.</span>
+    <br>
+    <br>
+</div>
+
+---
+
+Here are some videos of my favourite actions:
 
 {:.tags}
 [Edit Text](/images/quickmock_vids/edit-text.mp4)
 [Move](/images/quickmock_vids/move.mp4)
-[Replace](/images/quickmock_vids/replace.mp4)
 [Copy and Drag](/images/quickmock_vids/drag-images.mp4)
 [Paste Images](/images/quickmock_vids/paste-images.mp4)
 [Sort](/images/quickmock_vids/sortable.mp4)
@@ -42,9 +55,9 @@ Compresses all external images and links into a single HTML file which can be re
 [Playground](/images/quickmocks_playground.png){:.tag}
 A test friendly environment where users can practice actions.
 
----
-
-![Quick Mocks features page](/images/quickmocks_features.png)
+Some other cool features:
+- All actions supported multi-element manipulation. Want to change 5 icons at once? No problem. Need to duplicate a particular button for every card on screen? Easy as. This multi-elemental approach was very powerful when used correctly.
+- Copy and paste was available across tabs. Copied data wasn't simply text, it was a collection of independent HTML elements. You could select 5 different text fields on screen, then replace them with 5 icons from another screen. Very useful.
 
 ---
 
@@ -54,23 +67,23 @@ A test friendly environment where users can practice actions.
 
 ## Tech Specs
 
-`QM` is a chrome extension which runs in the background of every page you open. JS is injected to process actions and interact with HTML elements. CSS is injected for minial styling such as to highlight selected elements, and to enable draggable functionality.
+`QM` is a chrome extension which runs in the background of every page you open. JS is injected to process actions and interact with HTML elements. CSS is injected for minimal styling such as to highlight selected elements, and to enable draggable functionality.
 
-### Algorithm
-- `QM` logic is injected in webpage and awaits for user actions.
-- `ALT + Click` selects an element. A CSS class is used to style the element, and to find selected elements later.
-- User performs an action (e.g. duplicate), all selected elements (elements with that CSS class) are actioned independently.
-- `Jquery` makes multi element handling very easy which is reflected in all `QM` actions.
-- Nearly all actions follow this 'select -> action' principle
+### ![Algorithm](/icons/algorithm.png) Algorithm
+- Nearly all actions follow a basic 'select -> action' principle.
+- `QM` logic is injected into webpage and awaits for user actions.
+- `ALT + Click` is used to select one or more elements. These are styled by a CSS class.
+- Upon action (e.g. duplicate), selected elements are found by that CSS class, then code is run to apply the action to each element independently.
 
-### Jquery
-- `Jquery` was used to handle HTML elements with ease. Every command natively handles multiple elements which was reflected in `QM`. Want to change 5 icons at once? No problem. Need a new field for every card on screen? Easy as. This multi elemental approach was very powerful when used correctly.
-- Most basic HTML element actions were already incorporated into `Jquery` (i.e. copy, paste, delete).
-- `QM` constantly modifies classes and interacts with HTML elements. At the time `Jquery` was the obvious choice.
+### ![Jquery](/icons/jquery.png) Jquery
+- `Jquery` is used to handle CSS selection and HTML manipulation with little code.
+- Many basic HTML element actions were already provided by `Jquery` (i.e. copy, paste, delete) which made initial development very easy.
+- `Jquery` natively supports multiple element actions. For instance the 'delete' action is a simple 'elements.delete()' action and works for any number of elements without loops.
+- `QM` constantly modified classes and interacts with HTML elements. At the time `Jquery` was the easiest and cleanest way to do this.
 
-### Chrome Extension
+### ![Chrome](/icons/chrome.png) Chrome Extension
 - A browser extension is the only way to inject `QM`-like functionality into every webpage. Chrome was the dev browser of choice which made it the primary supported browser.
-- Deployment was performed through Chrome Store which supported decent analytics, A/B versioning, and a custom company specific portal.
+- Deployment was performed through Chrome Store which supported decent analytics, A/B versioning, and an employee only download portal.
 
 ---
 
