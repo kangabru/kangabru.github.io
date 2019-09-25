@@ -1,5 +1,31 @@
 <header>
-    {% if site.logo %}<p><a href="/"><img src="{{ site.logo | relative_url }}" alt="Logo" /></a></p>{% endif %}
-    <p><strong><a href="/">{{site.title }}</a></strong></p>
-    <p>{{ site.description }}</p>
+    {% if site.logo %}
+    <p class="header-image">
+        <a href="/"><img src="{{ site.logo | relative_url }}" alt="Logo" /></a>
+    </p>
+    {% endif %}
+
+    <div class="header-content">
+        <p><strong><a href="/">{{ site.title }}</a></strong></p>
+        <p>{{ site.description }}</p>
+
+        <p style="margin: 0;">
+            {% if site.github %}
+            <a href="{{ site.github }}" target="_blank">
+                <img alt="Github Profile" src="/icons/github_large.png" />
+            </a>
+            {% endif %}
+
+            {% if site.linkedin %}
+            <a href="{{ site.linkedin }}" target="_blank">
+                <img alt="LinkedIn Profile" src="/icons/linkedin_large.png" />
+            </a>
+            {% endif %}
+
+            {% if include.link_home == 1 %}
+            <a class="big-link" href="/" style="float: right; margin-top: -5px;">Go home</a>
+            {% endif %}
+        </p>
+    </div>
+
 </header>

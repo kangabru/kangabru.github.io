@@ -55,8 +55,22 @@ blockquote::after {
 header {
     background-color: #fefbee;
     padding         : 20px !important;
-    padding-bottom  : 0 !important;
+    padding-left    : 0 !important;
     border-radius   : 10px;
+    display         : flex;
+    flex-wrap       : wrap;
+}
+
+.header-image {
+    flex-basis  : 250px;
+    margin      : 0 auto 20px;
+    padding-left: 20px;
+}
+
+.header-content {
+    flex-basis  : 300px;
+    flex-grow   : 1;
+    padding-left: 20px;
 }
 
 section {
