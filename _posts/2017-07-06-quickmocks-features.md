@@ -9,11 +9,11 @@ hidden: 1
 ---
 
 ### Designed for Devs
-Love writing dev specs? Me neither. Specing even the simplest of forms can become verbose when written down. `Quick Mocks` (`QM`) could take an existing form, add some fields, update some labels, change an icon or two and you were finished. A picture says a thousands words and `QM` let you make them in seconds.
+Love writing dev specs? Me neither. Specing even the simplest of forms can become verbose when written down. `Quick Mocks` (`QM`) can take an existing form, add some fields, update some labels, change an icon or two and you're done. A picture says a thousands words and `QM` lets you make them in seconds.
 
 `QM` was loved by devs for specing up tasks, screen designs, bug fixes etc. Managers even complained that the mocks looked too real! So I created a 'mockify' filter to make images look more mock-like.
 
-As the company expanded, `QM` became a key tool for me and other devs who often worked with offshore developers. Communicating through mocks became key to effectively managing our time when outlining requirements.
+As the company expanded, `QM` became a key tool for me and other devs who often worked with offshore developers. Communicating through mocks became necessary to effectively manage our time when outlining requirements.
 
 ### Adopted by Designers
 Why use Photoshop or Balsamic to recreate screens you already have? Simply load an existing page and use `QM` to refine it. This saved designers' time and effort from replicating every design in our ever growing suite of products. Users could save fully editable pages to collaborate and iterate on designs too!

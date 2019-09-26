@@ -32,7 +32,7 @@ With some more work I got the animation working, but it took longer than expecte
 
 #### Lessons Learnt:
 - Breaking new ground takes time to implement, to test, and it still might be buggy.
-- Spec out your design! I was eager to build and jumped in head first. Some simple design planning or specs would have saved me a lot of time.
+- Spec out your design! I was eager to build and jumped in head first. Some simple design planning would have saved me some time.
 - Keep it simple stupid! Do you need these animations right now?
 
 ---
@@ -54,17 +54,17 @@ My ideal image viewer became more and more complicated. There are so many lightw
 
 ### Masonry Grid ([Try it out here](https://whereiskangabru.com/albums))
 
-I wanted a classic masonry grid to showcase my albums and images. The [popular library masonry](https://masonry.desandro.com/) was of course my first choice.
+I wanted a classic masonry grid to showcase my albums and images. The popular library [Masonry](https://masonry.desandro.com/) was of course my first choice.
 
-The problem started when trying to retrofit the library into my react app. Duck tape solutions exist to combine the two libraries, but I've never been able to get masonry working quite perfectly. The following issues in my masonry implementation still exist:
+The problem started when trying to retrofit the library into my `React` app. Duck tape solutions exist to combine the two libraries, but I've never been able to get it working quite perfectly. The following issues in my Masonry implementation still exist:
 - Sometimes images load in a single vertical line despite my attempts to stop it.
 - Sometimes the whole grid reorders itself on image load, again despite my attempts to stop it.
 
 Whilst the library initially looked promising, it's been frustrating trying to fix the interoperability issues. In future, I might implement a more [react specific solution](https://codesandbox.io/embed/26mjowzpr).
 
 #### Lessons Learnt:
-- I should have explored more solutions specific to my use case before committing to a particular library. I.e. React specific libraries instead of the most popular library.
-- Knowing that masonry uses `JQuery`, I should have questioned its interoperability with React and researched some problems that might have arisen.
+- I should have explored more solutions specific to my use case before committing to a particular library. I.e. `React` specific libraries instead of the most popular one.
+- Knowing that Masonry uses `JQuery`, I should have questioned its interoperability with `React` and researched some problems that might have arisen.
 
 ---
 

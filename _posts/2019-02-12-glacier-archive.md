@@ -24,7 +24,7 @@ It features:
 
 {:.img-with-text}
 ![Glarier Archiver Summary Image](/images/glacier_summary.jpg)
-A cozy `React` built UI which includes a file explorer, upload tracker, and ability to run various actions.
+A cosy `React` built UI which includes a file explorer, upload tracker, and ability to run various actions.
 
 ---
 
@@ -40,8 +40,8 @@ Originally all functionality was performed through a collection of `Python` scri
 
 ### ![Python](/icons/python.png) Python
 - Generates the data to render the file explorer. This includes the file 'is archived' and 'is summarised' tags.
-- Summarises media files within a folder into [contact sheets](https://en.wikipedia.org/wiki/Contact_print) linked to their respective file names. These sheets are lightweight and allow me to locate files visually.
-- Talks to `S3` to restore, check restore status, and download files.
+- Summarises media files within a folder into [contact sheets](https://en.wikipedia.org/wiki/Contact_print) linked to their respective file names. These sheets are lightweight and allow me to locate files visually. [FFmpeg](https://ffmpeg.org/) is used to generate video thumbnails.
+- Talks to `S3` to [restore](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/restore-archived-objects.html), check restore status, and download files.
 - Scripts are called through shell commands provided by `Electron`.
 
 ### ![Electron](/icons/electron.png) Electron

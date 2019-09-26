@@ -70,9 +70,9 @@ This is a single page application built from the ground up by me. The app utilis
 - Thumbnails are used extensively to improve loading speed and animation performance.
 
 ### ![JS Packages](/icons/javascript.png) JS Packages
-- `Tailwinds CSS`: A fantastic library which generates atomic `CSS` utility classes. This simplifies and reduces the size of `CSS`, and helps reduce unexpected `CSS` breakages. It looks great too and simplifies creating responsive `CSS`.
+- `Tailwinds`: A fantastic library which generates atomic `CSS` utility classes. It helps prevent breakages, simplifies responsive design, and reduces the size of stylesheets through the app.
 - `Leaflet`: Renders and handles all maps used in the app.
-- `Redux Thunk`: Enables async redux actions.
+- `Redux Thunk`: Enables async `Redux` actions.
 - `React Router`: Enables url navigation with the single page app.
 - `Webpack`: Builds the app. Includes transpiling `Typescript`, compiling `Less`, building `Tailwinds`, running dev/prod builds, tree shaking etc.
 - `Jest`: Used for `JS`, UI, and [snapshot](https://jestjs.io/docs/en/snapshot-testing.html) testing.

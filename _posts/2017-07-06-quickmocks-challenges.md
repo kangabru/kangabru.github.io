@@ -67,7 +67,7 @@ To achieve the `ALT + Click` select action for example, a 'click' event needs to
 Dynamic elements won't work + this will likely impact performance.
 
 *"Do we set one on the body element and find the target on click?"*
-Elements with existing click events will run their action first (i.e. button and links)
+Elements with existing click events will run their action first (i.e. button and links).
 
 What did I do? Added click events as the mouse hovers into elements. This worked for all elements AND the event could be placed first in the event queue to override buttons etc.
 
@@ -81,26 +81,24 @@ How did I fix it? Clean up! Not only did I have to add click events, I need to r
 
 ### The feature that never was
 
-The number one requested feature? Undo.
+The number one requested feature? Undo. This was the biggest feature that I never got to work on.
 
-This was the biggest feature I never got to work on. The implementation always seemed tricky and I sadly left before being able to implement it.
+`QM` can be _very_ dynamic. Users can select an element, the element's parent, _that_ element's parent, then perform actions on all three at once. Dealing with nested data types like this is uncommon. The implementation always seemed tricky and I departed the company before being able to implement it.
 
-[The Memento algorithm](https://en.wikipedia.org/wiki/Memento_pattern) saves and restore states to implement undo. Websites can be LARGE though, do you really want to save a whole copy of the HTML each time you duplicate a button?
+[The Memento algorithm](https://en.wikipedia.org/wiki/Memento_pattern) saves and restore states to implement undo. Websites can be LARGE though, do you really want to save a whole copy of the `HTML` each time you duplicate a button? If not the entire website, how would one save the state of multiple potentially nested elements?
 
-`QM` was also able to be _really_ dynamic. Users could select an element, the element's parent, _that_ element's parent, then perform actions on all three at once. Dealing with nested data types like this is uncommon and tricky.
-
-One solution that might have worked as follows:
+Something akin to the [Command Pattern](https://en.wikipedia.org/wiki/Command_pattern) seemed more suitable. One solution that might have worked is as follows:
 - Create an appropriate 'undo' action for each 'normal' action. E.g. To undo a 'duplicate' action you simply 'delete' the new elements.
-- As a user actions elements, tag them with a unique CSS class to identify them later.
-- Track the actions in a stack. Track what the action was and the CSS identifier.
-- When an action is undone, find the elements using the CSS identifier, then perform the action's 'undo' function.
+- As a user actions elements, tag them with a unique `CSS` class to identify them later.
+- Track the actions in a stack. Track what the action was and the `CSS` identifier.
+- When an action is undone, find the elements using the `CSS` identifier, then perform the action's 'undo' function.
 - Place undone actions in another stack to permit 'redo' actions later.
 
 Some problems:
-- *How does this work for editing text?* Editing text didn't add/remove elements so one might have had to duplicate and hide versions of the text fields as they were edited.
-- *How does this work for saved pages?* If undo is achieved using actual HTML elements, then all of those edits would be available when the file is opened at a later date. Is this desired behaviour?
+- *How does this work for editing text?* Editing text doesn't add/remove elements so one might have had to duplicate and hide versions of the text fields as they were edited.
+- *How does this work for saved pages?* If undo is achieved using actual `HTML` elements, then all of those edits would be available when the file is opened at a later date. Is this desired behaviour? Could you find and delete the undo history before a page is saved?
 
-All-in-all a tricky problem, but it would have been great to solve!
+All-in-all a delicious problem, it would have been great to solve!
 
 ---
 

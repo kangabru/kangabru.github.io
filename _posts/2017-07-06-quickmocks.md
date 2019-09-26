@@ -50,14 +50,14 @@ Here are some videos of my favourite actions:
 [Screenshot](/images/quickmock_vids/screenshot.mp4)
 
 [Save as single file](/images/quickmock_vids/save.mp4){:.tag}
-Compresses all external images and links into a single HTML file which can be re-edited.
+Compresses all external images and links into a single `HTML` file which can be re-edited.
 
 [Playground](/images/quickmocks_playground.png){:.tag}
 A test friendly environment where users can practice actions.
 
 Some other cool features:
-- All actions supported multi-element manipulation. Want to change 5 icons at once? No problem. Need to duplicate a particular button for every card on screen? Easy as. This multi-elemental approach was very powerful when used correctly.
-- Copy and paste was available across tabs. Copied data wasn't simply text, it was a collection of independent HTML elements. You could select 5 different text fields on screen, then replace them with 5 icons from another screen. Very useful.
+- All actions support multi-element manipulation. Want to change 5 icons at once? No problem. Need to duplicate a particular button for every card on screen? Easy-as. Multi-element support is very powerful when used correctly.
+- Copy and paste is available across tabs. Copied data isn't simply text, it's a collection of independent `HTML` elements. You can select 5 different text fields on screen, then replace them with 5 icons from another screen. Very useful.
 
 ---
 
@@ -67,7 +67,7 @@ Some other cool features:
 
 ## Tech Specs
 
-`QM` is a chrome extension which runs in the background of every page you open. `JS` is injected to process actions and interact with HTML elements. `CSS` is injected for minimal styling such as to highlight selected elements, and to enable draggable functionality.
+`QM` is a chrome extension which runs in the background of every page you open. `JS` is injected to process actions and interact with `HTML` elements. `CSS` is injected for minimal styling such as to highlight selected elements, and to enable draggable functionality.
 
 ### ![Algorithm](/icons/algorithm.png) Algorithm
 - Nearly all actions follow a basic 'select -> action' principle.
@@ -76,10 +76,10 @@ Some other cool features:
 - Upon action (e.g. duplicate), selected elements are found by that `CSS` class, then code is run to apply the action to each element independently.
 
 ### ![Jquery](/icons/jquery.png) Jquery
-- `Jquery` is used to handle `CSS` selection and `HTML` manipulation with little code.
-- Many basic HTML element actions were already provided by `Jquery` (i.e. copy, paste, delete) which made initial development very easy.
-- `Jquery` natively supports multiple element actions. For instance the 'delete' action is a simple 'elements.delete()' action and works for any number of elements without loops.
-- `QM` constantly modified classes and interacts with HTML elements. At the time `Jquery` was the easiest and cleanest way to do this.
+- Used to handle `CSS` selection and `HTML` manipulation with little code.
+- Many basic `HTML` actions like copy/paste/delete were already provided by `Jquery` which made initial development very easy.
+- Natively supports multiple element actions. For instance the 'delete' action is a simple 'elements.delete()' action and works for any number of elements without loops.
+- `QM` constantly modifies classes and interacts with `HTML` elements. At the time `Jquery` was the easiest and cleanest way to do this.
 
 ### ![Chrome](/icons/chrome.png) Chrome Extension
 - A browser extension is the only way to inject `QM`-like functionality into every webpage. Chrome was the dev browser of choice which made it the primary supported browser.
