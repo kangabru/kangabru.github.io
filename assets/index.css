@@ -107,6 +107,12 @@ section {
     display  : block;
 }
 
+.image-medium {
+    max-width: 80%;
+    margin   : 0 auto;
+    display  : block;
+}
+
 .img-with-text {
     margin-right: auto;
     margin-left : auto;

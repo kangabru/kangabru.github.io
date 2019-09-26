@@ -20,7 +20,7 @@ Not sure where to start? Check out my favourite:
 
 {{ post.description }}
 
-<img src="{{ post.image_url }}"/>
+<img class="image-medium" src="{{ post.image_url }}"/>
 
 <p class="tags">
 {% for tag in post.tags %}
