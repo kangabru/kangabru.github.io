@@ -19,7 +19,7 @@ The code is right there, it shouldn't be too hard right?<br>
 #### The process
 Converting the animation example started off well:
 - I reimagined the original `JQuery` code into a standalone `React` component.
-- The algorithm took the clicked image, calculated a CSS transform to make it big, then animated it via CSS. It was buttery smooth, and I was pleased.
+- The algorithm took the clicked image, calculated a `CSS` transform to make it big, then animated it via `CSS`. It was buttery smooth, and I was pleased.
 
 What I failed to account for was future enhancements. Naturally I wanted some image gallery nav controls shortly after. Some problems:
 - The enlarged image was the original image element but blown up.
@@ -64,7 +64,7 @@ Whilst the library initially looked promising, it's been frustrating trying to f
 
 #### Lessons Learnt:
 - I should have explored more solutions specific to my use case before committing to a particular library. I.e. React specific libraries instead of the most popular library.
-- Knowing that masonry uses JQuery, I should have questioned its interoperability with React and researched some problems that might have arisen.
+- Knowing that masonry uses `JQuery`, I should have questioned its interoperability with React and researched some problems that might have arisen.
 
 ---
 

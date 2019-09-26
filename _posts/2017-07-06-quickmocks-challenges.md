@@ -9,7 +9,7 @@ hidden: 1
 ---
 
 ### Saving Pages
-By far the hardest challenge with `QM` was saving and re-editing mocks. it was _the_ critical feature necessary for widespread adoption. My dream was to save websites as a _single file_ which could be shared and easily re-edited. In the end it wasn't technically hard, but it took a long time to perfect.
+By far the hardest challenge with `Quick Mocks` (`QM`) was saving and re-editing mocks. it was _the_ critical feature necessary for widespread adoption. My dream was to save websites as a _single file_ which could be shared and easily re-edited. In the end it wasn't technically hard, but it took a long time to perfect.
 
 Websites are dynamic and multi-content beasts. Often they have dozens of external images, stylesheets, Iframes, you name it.
 

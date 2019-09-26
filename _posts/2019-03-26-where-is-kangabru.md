@@ -9,7 +9,7 @@ link: https://whereiskangabru.com/
 ---
 
 ## Key Points
-- A single page web app built in React and hosted on Firebase.
+- A single page web app built in `React` and hosted on `Firebase`.
 - Incorporates modern technologies and is highly scalable without further effort.
 - Looks pretty cool I reckon 👌
 
@@ -49,18 +49,18 @@ A vast and growing collection of my travel photos and albums.
 This is a single page application built from the ground up by me. The app utilises various technologies that I wanted to try out at the time.
 
 ### ![Firebase](/icons/firebase.png) Firebase
-- Uses Firebase for hosting, auth, photo storage, and cloud functions.
+- Uses `Firebase` for hosting, auth, photo storage, and cloud functions.
 - Cloud functions are used to create image thumbnails, and to compress DB entries into a single read on page load.
-- Firebase was chosen for fantastic dev usability, low cost, and full [GCP](https://cloud.google.com/) integration.
+- `Firebase` was chosen for fantastic dev usability, low cost, and full [GCP](https://cloud.google.com/) integration.
 
 ### ![React](/icons/react.png) React
 - All code is run client side which simplifies deployment. I simply host the static files which negates to need to manage a traditional server/DB setup.
-- Allows for a component based design which allows for complicated, yet maintainable single page applications.
-- The diverse React and NPM ecosystem allow me to develop more, faster.
+- `React` apps are component based which allows for complex, yet maintainable single page applications.
+- The diverse `React` and `NPM` ecosystem allow me to develop more, faster.
 
 ### ![Redux](/icons/redux.png) Redux
-- Redux is used to manage a centralised application state.
-- Server call responses update the Redux state, which React then uses to render the UI.
+- `Redux` is used to manage a centralised application state.
+- Server call responses update the `Redux` state, which `React` then uses to render the UI.
 - The one way data flow reduces bugs, and allows for easy UI testing based on state data.
 
 ### ![Performance](/icons/cog.png) Performance
@@ -70,12 +70,12 @@ This is a single page application built from the ground up by me. The app utilis
 - Thumbnails are used extensively to improve loading speed and animation performance.
 
 ### ![JS Packages](/icons/javascript.png) JS Packages
-- **Tailwinds CSS:** A fantastic library which generates atomic CSS utility classes. This simplifies and reduces the size of CSS, and helps reduce unexpected CSS breakages. It looks great too and simplifies creating responsive CSS.
-- **Leaflet**: Renders and handles all maps used in the app.
-- **Redux Thunk**: Enables async redux actions.
-- **React Router**: Enables url navigation with the single page app.
-- **Webpack**: Builds the app. Includes transpiling Typescript, compiling Less, building Tailwinds, running dev/prod builds, tree shaking etc.
-- **Jest**: Used for JS, UI, and [snapshot](https://jestjs.io/docs/en/snapshot-testing.html) testing.
+- `Tailwinds CSS`: A fantastic library which generates atomic `CSS` utility classes. This simplifies and reduces the size of `CSS`, and helps reduce unexpected `CSS` breakages. It looks great too and simplifies creating responsive `CSS`.
+- `Leaflet`: Renders and handles all maps used in the app.
+- `Redux Thunk`: Enables async redux actions.
+- `React Router`: Enables url navigation with the single page app.
+- `Webpack`: Builds the app. Includes transpiling `Typescript`, compiling `Less`, building `Tailwinds`, running dev/prod builds, tree shaking etc.
+- `Jest`: Used for `JS`, UI, and [snapshot](https://jestjs.io/docs/en/snapshot-testing.html) testing.
 
 ---
 
