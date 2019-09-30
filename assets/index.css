@@ -28,10 +28,14 @@ html {
 }
 
 blockquote {
-    position: relative;
-    margin  : 20px auto !important;
-    border  : none !important;
-    width   : max-content;
+    box-sizing : border-box;
+    position   : relative;
+    margin     : 20px auto !important;
+    padding    : 0 20px !important;
+    border     : none !important;
+    width      : max-content;
+    white-space: normal;
+    max-width  : 100%;
 }
 
 blockquote::before,

@@ -73,7 +73,7 @@ What did I do? Added click events as the mouse hovers into elements. This worked
 
 What's the problem you ask? Over time I noticed that _all_ webpages started to slow down the more I used them. Click events were being added to thousands of elements and each click caused a significant performance impact. Not good!
 
-How did I fix it? Clean up! Not only did I have to add click events, I need to remove old ones when leaving elements.
+How did I fix it? Clean up! Not only did I have to add click events, I needed to remove old ones when leaving elements.
 
 `QM` had lots of impact potential as it ran on all websites. Lots of work like this was made to ensure `QM` was completely invisible until needed.
 
