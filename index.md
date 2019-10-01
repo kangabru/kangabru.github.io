@@ -1,5 +1,5 @@
 ---
-# tabtitle: # This is the home page so don't add an additional title
+title: false
 ---
 
 # {{ site.title }}
