@@ -1,0 +1,7 @@
+{% if include.tags and include.tags.size > 0 %}
+<p class="tags">
+    {% for tag in include.tags %}
+    <a href="/tags/{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+</p>
+{% endif %}

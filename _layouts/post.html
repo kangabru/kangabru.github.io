@@ -25,13 +25,7 @@ layout: default
 <img src="{{ page.image_url | relative_url }}" />
 {% endif %}
 
-{% if page.tags and page.tags.size > 0 %}
-<p class="tags">
-    {% for tag in page.tags %}
-    <span>{{ tag }}</span>
-    {% endfor %}
-</p>
-{% endif %}
+{% include tags.html tags=page.tags %}
 
 <hr>
 

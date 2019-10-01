@@ -22,11 +22,7 @@ Not sure where to start? Check out my favourite:
 
 <img class="image-medium" src="{{ post.image_url }}"/>
 
-<p class="tags">
-{% for tag in post.tags %}
-    <span>{{ tag }}</span>
-{% endfor %}
-</p>
+{% include tags.html tags=post.tags %}
 
 ---
 
