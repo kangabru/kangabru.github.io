@@ -1,53 +1,38 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+---
+link_home: 1
+layout: default
+---
 
-<head>
-    <title>{{ site.title }} - {{ page.title }}</title>
-    {% include head.html %}
-</head>
+<h1>{{ page.title }}</h1>
 
-<body>
-    <div class="wrapper">
-        {% include sidebar.html link_home=1 %}
+{% if page.when or page.link %}
+<p>
+    {% if page.when %}
+    <span class="date">{{ page.when }}</span>
+    {% endif %}
 
-        <section>
-            <h1>{{ page.title }}</h1>
+    {% if page.link %}
+    <a href="{{ page.link }}" class="big-link alt" target="_blank">View it live here</a>
+    {% endif %}
+</p>
+{% endif %}
 
-            {% if page.when or page.link %}
-            <p>
-                {% if page.when %}
-                <span class="date">{{ page.when }}</span>
-                {% endif %}
+{% if page.description %}
+<p>{{ page.description }}</p>
+{% endif %}
 
-                {% if page.link %}
-                <a href="{{ page.link }}" class="big-link alt" target="_blank">View it live here</a>
-                {% endif %}
-            </p>
-            {% endif %}
+{% if page.image_url %}
+<img src="{{ page.image_url | relative_url }}" />
+{% endif %}
 
-            {% if page.description %}
-            <p>{{ page.description }}</p>
-            {% endif %}
+{% if page.tags and page.tags.size > 0 %}
+<p class="tags">
+    {% for tag in page.tags %}
+    <span>{{ tag }}</span>
+    {% endfor %}
+</p>
+{% endif %}
 
-            {% if page.image_url %}
-            <img src="{{ page.image_url | relative_url }}" />
-            {% endif %}
+<hr>
 
-            {% if page.tags and page.tags.size > 0 %}
-            <p class="tags">
-                {% for tag in page.tags %}
-                <span>{{ tag }}</span>
-                {% endfor %}
-            </p>
-            {% endif %}
-
-            <hr>
-
-            {{ content }}
-        </section>
-
-        {% include scripts.html %}
-    </div>
-</body>
-
-</html>
+{{ content }}
