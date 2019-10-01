@@ -1,0 +1,33 @@
+---
+layout: post
+---
+
+{% for post in site.posts %}
+{% if post.hidden != 1 and post.tags contains page.tag %}
+
+<h2><a href="{{ post.url }}">{{ post.title }} - {{ post.when }}</a></h2>
+
+<p>{{ post.description }}</p>
+
+<img class="image-medium" src="{{ post.image_url }}" />
+
+<p>{% include tags.html tags=post.tags %}</p>
+
+<hr>
+
+{% endif %}
+{% endfor %}
+
+<h2>All Tags:</h2>
+
+<!-- Get tag names from the global Jekyll tags map -->
+{% capture tags %}
+{% for tag in site.tags %}|{{ tag[0] }}{% endfor %}
+{% endcapture %}
+
+<!-- Split tags and remove the first separator -->
+{% assign tags = tags | slice: 2, tags.size %}
+{% assign tags = tags | split: "|" | sort_natural %}
+
+<!-- Use tags as normal -->
+{% include tags.html tags=tags %}
