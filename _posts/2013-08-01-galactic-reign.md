@@ -3,7 +3,7 @@ layout: post
 title: Galactic Reign
 description: A multi-touch <code>Android</code> game sporting a purpose built game engine, collision detection, and 3D renderer.
 when: Aug 2013
-image_url: images/galactic_reign.jpg
+image_url: /images/galactic_reign.jpg
 tags: [Java, Android]
 ---
 
