@@ -123,6 +123,11 @@ section {
     display  : block;
 }
 
+.image-post {
+    margin : 0 auto 10px;
+    display: block;
+}
+
 .img-with-text {
     margin-right: auto;
     margin-left : auto;
