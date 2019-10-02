@@ -10,7 +10,7 @@ html {
 .tags>*,
 .tag {
     font-size          : 0.9em;
-    color              : white;
+    color              : white !important;
     background-color   : #84c3f3;
     padding            : 0.3rem 0.6rem;
     margin             : 0 0.3rem 0.3rem 0;
@@ -19,6 +19,12 @@ html {
     -moz-user-select   : none;
     -ms-user-select    : none;
     user-select        : none;
+    font-weight        : normal !important;
+}
+
+.tags>a:hover,
+.tags>a:focus {
+    background-color: #65b4f0;
 }
 
 .date {
