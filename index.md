@@ -16,7 +16,7 @@ Not sure where to start? Check out my favourite:
 {% for post in site.posts %}
 {% if post.hidden != 1 %}
 
-### [{{ post.title }} - {{ post.when }}]({{ post.url }})
+## [{{ post.title }} - {{ post.when }}]({{ post.url }})
 
 {{ post.description }}
 
