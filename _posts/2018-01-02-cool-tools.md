@@ -4,7 +4,7 @@ title: Cool Tools for GIT
 description: Handy extensions that enhanced and integrated various <code>GIT</code> related services at a previous company.
 when: 2018
 image_url: /images/cool_tools.jpg
-tags: [GIT, JS, Python, Bash, Bitbucket, Jira, Team City]
+tags: [GIT, JS, Python]
 ---
 
 ## Key Points

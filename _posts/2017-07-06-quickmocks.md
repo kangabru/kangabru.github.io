@@ -4,7 +4,7 @@ title: Quick Mocks
 description: Originally a 'Hack Day' project, this UI mocking utility became loved by devs and designers alike at a prior company. I won 3 awards and a significant windfall for developing it.
 when: Jun 2017 - Nov 2018
 image_url: /images/quickmocks.png
-tags: [Jquery, Chrome Extension, Google Analytics]
+tags: [Jquery, JS, Chrome Extension, Google Analytics]
 ---
 
 ## Key Points
