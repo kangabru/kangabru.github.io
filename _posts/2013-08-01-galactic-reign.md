@@ -76,7 +76,7 @@ The game features various planets, game modes, weapons etc. Weapons include rapi
 ### 3D Saturn Rings
 - Purpose built pseudo-3D logic was made to render the Saturn rings.
 - The logic uses the standard 2D drawing library but with masks and transforms that render the rings in 3D space.
-- 3D libraries were not used as to minimise bloat, and because the rings are only a minor part of the graphics.
+- 3D libraries were not used as to minimise bloat, and because the rings were only a minor part of the graphics.
 
 ## Lessons Learnt
 
