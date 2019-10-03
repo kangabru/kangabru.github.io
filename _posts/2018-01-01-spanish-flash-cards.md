@@ -4,7 +4,7 @@ title: Spanish Flash Card Web App
 description: A bespoke flash card web app built with <code>Django</code> used to teach myself Spanish vocabulary quickly using data to analyse my progress.
 when: Jan 2018
 image_url: /images/spanish.png
-tags: [Python, Django, Heroku, PostgreSQL, Jquery, Ajax]
+tags: [Python, JS, Jquery, Ajax, Django, Heroku, PostgreSQL, SQLite]
 ---
 
 ## Key Points

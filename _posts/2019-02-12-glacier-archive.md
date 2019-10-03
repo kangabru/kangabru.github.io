@@ -4,7 +4,7 @@ title: Glacier Archiver
 description: An app using an unorthodox <code>Python</code> and <code>Electron</code> combo which helps me track, summarise, and archive terabytes of media files on two continents.
 when: Feb 2019
 image_url: /images/glacier.jpg
-tags: [Python, React, AWS S3, Electron, Typescript, JS, Redux]
+tags: [Python, React, S3, Electron, Typescript, JS, Redux]
 ---
 
 ## Key Points

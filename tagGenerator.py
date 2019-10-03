@@ -27,7 +27,8 @@ for filename in filenames:
 
 print("Found tags:", ", ".join(tags))
 
-old_files = glob.glob(dir_tags + '*.md')
+new_files = set()
+old_files = set([tag.replace('\\', '/') for tag in glob.glob(dir_tags + '*.md')])
 for tag in old_files:
     os.remove(tag)
 
@@ -36,6 +37,7 @@ if not os.path.exists(dir_tags):
 
 for tag in tags:
     tag_filename = dir_tags + tag + '.md'
+    new_files.add(tag_filename)
     with open(tag_filename, 'a') as f:
         f.writelines([
             "---\n",
@@ -45,4 +47,9 @@ for tag in tags:
             "---\n"
         ])
 
-print("Added %s tag files" % len(tags))
+updated_file_count = len(new_files.intersection(old_files))
+old_file_count = len(old_files.difference(new_files))
+new_file_count = len(new_files.difference(old_files))
+
+message = "Updated %s, added %s, and deleted %s tag files." % (updated_file_count, new_file_count, old_file_count)
+print(message)
