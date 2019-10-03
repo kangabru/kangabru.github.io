@@ -35,7 +35,7 @@ Some feature include:
     <source src="/images/student_timetable_ui.mp4" type="video/mp4">
     </video>
     <br>
-    <span>Look at that menu spin!</span>
+    <span>(Video) Look at that menu spin!</span>
     <br>
     <br>
 </div>

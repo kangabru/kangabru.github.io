@@ -52,7 +52,7 @@ My ideal image viewer became more and more complicated. There are so many lightw
 
 ---
 
-### Masonry Grid ([Try it out here](https://whereiskangabru.com/albums))
+### Masonry Grid ([Try it out here](https://whereiskangabru.com/#/albums))
 
 I wanted a classic masonry grid to showcase my albums and images. The popular library [Masonry](https://masonry.desandro.com/) was of course my first choice.
 

@@ -40,7 +40,7 @@ A vast and growing collection of my travel photos and albums.
 
 {:.img-with-text}
 ![CMD and Game Screen](/images/wikb_cms_game.jpg)<br>
-[A fully playable game!](https://whereiskangabru.com/) and CMS to manage photos and content.
+[A fully playable game!](https://whereiskangabru.com/#/play) and CMS to manage photos and content.
 
 ---
 
@@ -54,7 +54,7 @@ This is a single page application built from the ground up by me. The app utilis
 - `Firebase` was chosen for fantastic dev usability, low cost, and full [GCP](https://cloud.google.com/) integration.
 
 ### ![React](/icons/react.png) React
-- All code is run client side which simplifies deployment. I simply host the static files which negates to need to manage a traditional server/DB setup.
+- All code is run client side which simplifies deployment. I simply host the static files which negates the need to manage a traditional server/DB setup.
 - `React` apps are component based which allows for complex, yet maintainable single page applications.
 - The diverse `React` and `NPM` ecosystem allow me to develop more, faster.
 

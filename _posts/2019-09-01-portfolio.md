@@ -5,6 +5,7 @@ description: You're looking at it! This is my portfolio website written in <code
 when: Sep 2019
 image_url: /images/portfolio.jpg
 tags: [Markdown, Jekyll, Liquid, Python]
+link: /
 ---
 
 ## Key Points
@@ -16,11 +17,11 @@ tags: [Markdown, Jekyll, Liquid, Python]
 
 ## Features
 
-Why _build_ websites when you can generate them? Add in free hosting and you've got a winner. At least was my thinking when I made this thing.
+Why _build_ websites when you can generate them? Add in free hosting and you've got a winner. At least this was my thinking when I made this thing.
 
 `Jekyll` - a static site generator - allows me to write simple `Markdown` files which are automatically converted into static webpages when pushed to my [GitHub pages](https://pages.github.com/) repo.
 
-Pages can be as simple as you like, but my implementation makes extensive use of [Liquid templates](https://shopify.github.io/liquid/) to dynamically generate content - the list of my projects on [home page](/) for instance.
+Pages can be as simple as you like, but my implementation makes extensive use of [Liquid templates](https://shopify.github.io/liquid/) to dynamically generate content - the list of my projects on the [home page](/) for instance.
 
 {:.img-with-text}
 ![Images of tags in action](/images/portfolio_tags.jpg)<br>
@@ -32,7 +33,7 @@ Pages can be as simple as you like, but my implementation makes extensive use of
 
 ### ![Jekyll](/icons/jekyll.png) Jekyll
 - Used for static webpage generation. I simply write `Markdown` files, spruce them up with a little `CSS` and `HTML`, and deploy.
-- Deployed on GitHub Pages. The `Jekyll` generate process is run when pushed to the GitHub repo. A simple, free, setup-less deployment process.
+- Deployed on GitHub Pages - the `Jekyll` generate process is run when pushed to the repo. A simple, free, setup-less deployment process.
 - Is easy to get started with, yet has great extensibility for more advanced content.
 
 ### ![Python](/icons/python.png) Python

@@ -31,7 +31,7 @@ Thankfully [developers are awesome](https://github.com/gildas-lormeau/SingleFile
     <source src="/images/quickmock_vids/save.mp4" type="video/mp4">
     </video>
     <br>
-    <span>(Click Play) Save and compression into a single file.</span>
+    <span>(Video) Save and compression into a single file.</span>
     <br>
     <br>
 </div>
@@ -41,7 +41,7 @@ Thankfully [developers are awesome](https://github.com/gildas-lormeau/SingleFile
 ### Designing for Designers
 Intuitive UX can be hard to design. It's even harder when there's no UI! `QM` was originally made for devs but quickly found use by more visual users - like designers. All functionality was hidden behind keyboard shortcuts which made it hard for new and graphically inclined users. Looking back, this is likely what limited its adoption further.
 
-Many steps to were taken to improve usability, for example:
+Many steps were taken to improve usability, for example:
 1. Created an extensive documentation page to list all commands and functionality. The problem is that most people don't want to read.
 1. Prettied the documentation page and added gifs for _every_ action to provide visual examples.
 1. Created a [playground page](/images/quickmocks_playground.png) which users could use to experiment and practice their skills in a friendly environment. All gifs used the 'playground' in order to provide a direct and reproducible reference.

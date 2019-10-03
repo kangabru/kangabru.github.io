@@ -12,7 +12,7 @@ tags: [Java, Android]
 - Features a custom game engine, 3D rendering, collision detection etc.
 - Overcame many technical challenges, but realised the hardest challenge was making the game actually fun.
 
-## Feature
+## Features
 
 Whilst never realised into a fully fledged game, this summer project served as a great learning experience and is packed with cool tech (in my opinion).
 
@@ -23,7 +23,7 @@ Whilst never realised into a fully fledged game, this summer project served as a
     <source src="/images/galactic_reign_ui.mp4" type="video/mp4">
     </video>
     <br>
-    <span>The planet is key to the game, so the menu displays it front and centre. Notice that the land mass drifts, and the rings orbit around the planet gracefully.</span>
+    <span>(Video) The planet is key to the game, so the menu displays it front and centre. Notice that the land mass drifts, and the rings orbit around the planet gracefully.</span>
     <br>
     <br>
 </div>
@@ -35,7 +35,7 @@ Whilst never realised into a fully fledged game, this summer project served as a
     <source src="/images/galactic_reign_game.mp4" type="video/mp4">
     </video>
     <br>
-    <span>The aim of the game is survival. Destroy the rain of asteroids that come your way with various weapons.</span>
+    <span>(Video) The aim of the game is survival. Destroy the rain of asteroids that come your way with various weapons.</span>
     <br>
     <br>
 </div>
@@ -47,7 +47,7 @@ Whilst never realised into a fully fledged game, this summer project served as a
     <source src="/images/galactic_reign_menu.mp4" type="video/mp4">
     </video>
     <br>
-    <span>The game features cool animations like this seamless masking interaction with the menu.</span>
+    <span>(Video) The game features cool animations like this seamless masking interaction with the menu.</span>
     <br>
     <br>
 </div>

@@ -47,7 +47,7 @@ Originally all functionality was performed through a collection of `Python` scri
 ### ![Electron](/icons/electron.png) Electron
 - Allowed me to apply my love of web apps whilst utilising an existing `Python` and file system backend.
 - `Electron` apps are large and memory hungry, but as the only user this was acceptable because of its ease of development.
-- Why not use `Python` to build the UI? Native desktop options simply don't look as good and are losing popularity.
+- Why didn't I use `Python` to build the UI? Native desktop options simply don't look as good and are losing popularity.
 
 ### ![React & Redux](/icons/react.png) React/Redux
 - I love `React`, why not try it out on the desktop?

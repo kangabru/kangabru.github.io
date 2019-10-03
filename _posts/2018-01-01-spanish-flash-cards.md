@@ -16,7 +16,7 @@ tags: [Python, JS, Jquery, Ajax, Django, Heroku, PostgreSQL, SQLite]
 
 ## Features
 
-At first glance this app looks like a simple flash card app like any other. Underneath, however, its powered by a sophisticated data analytical powerhouse used to track your progress and optimise your learning. Well that's a bit exaggerated, but it _is_ cool.
+At first glance this app looks like a simple flash card app like any other. Underneath, however, it's powered by a sophisticated data analytical powerhouse used to track your progress and optimise your learning. Well that's a bit exaggerated, but it _is_ cool.
 
 {:.img-with-text}
 ![Image of the UI](/images/spanish_ui.gif){:.image-small}<br>
@@ -29,8 +29,8 @@ Some key features:
 - It sports a voice synthesiser (with real accents!) for listening practice.
 - Isolate phrases based how easy/medium/hard they are according to your past performance.
 - Use keyboard shortcuts to quickly mark words and other actions.
-- Group phrases in sets and activate specific sets and/or phrases you wish to practice.
-- Import 100s of phrases in one go.
+- Group phrases in sets and activate specific sets and/or phrases that you wish to practice.
+- Import 100s of phrases in one go via a text parser interface.
 
 ---
 
@@ -51,7 +51,7 @@ Check out your overall performance or dive into specific stats for each phrase.
 This web app was built in `Django` and deployed on `Heroku` with a `Postgres` database. This was built for web in order to practise web development, but also to be able to access the data and progress from any device, anywhere in the world.
 
 ### ![The D is silent](/icons/django.png) Django
-- A `Python` based server framework used to serve HTML, handle DB calls, and front APIs used by the front end.
+- A `Python` based server framework used to serve `HTML`, handle DB calls, and front APIs used by the front end.
 - Is DB agnostic so tests are setup with `SQLite` and production with `Postgres`.
 - Ships with niceties like user auth, safeguards against SQL injection, powerful admin screens, and much more.
 - The 'd' is silent.

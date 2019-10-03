@@ -9,7 +9,7 @@ hidden: 1
 ---
 
 ### Designed for Devs
-Love writing dev specs? Me neither. Specing even the simplest of forms can become verbose when written down. `Quick Mocks` (`QM`) can take an existing form, add some fields, update some labels, change an icon or two and you're done. A picture says a thousands words and `QM` lets you make them in seconds.
+Love writing dev specs? Me neither. Specing even the simplest of forms can become verbose when written down. `Quick Mocks` (`QM`) can take an existing form, add some fields, update some labels, change an icon or two, and you're done. A picture says a thousands words and `QM` lets you make them in seconds.
 
 `QM` was loved by devs for specing up tasks, screen designs, bug fixes etc. Managers even complained that the mocks looked too real! So I created a 'mockify' filter to make images look more mock-like.
 

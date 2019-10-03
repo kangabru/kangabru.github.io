@@ -32,7 +32,7 @@ Think of the browser 'inspector' tool, but on steroids!<br>
     <source src="/images/quickmock_vids/replace.mp4" type="video/mp4">
     </video>
     <br>
-    <span>(Click Play) Example 'replace' feature.</span>
+    <span>(Video) Example 'replace' feature.</span>
     <br>
     <br>
 </div>
@@ -71,7 +71,7 @@ Some other cool features:
 
 ### ![Algorithm](/icons/algorithm.png) Algorithm
 - Nearly all actions follow a basic 'select -> action' principle.
-- `QM` logic is injected into webpage and awaits for user actions.
+- `QM` logic is injected into the webpage and awaits for user actions.
 - `ALT + Click` is used to select one or more elements. These are styled by a `CSS` class.
 - Upon action (e.g. duplicate), selected elements are found by that `CSS` class, then code is run to apply the action to each element independently.
 
@@ -83,7 +83,7 @@ Some other cool features:
 
 ### ![Chrome](/icons/chrome.png) Chrome Extension
 - A browser extension is the only way to inject `QM`-like functionality into every webpage. Chrome was the dev browser of choice which made it the primary supported browser.
-- Deployment was performed through Chrome Store which supported decent analytics, A/B versioning, and an employee only download portal.
+- Deployment was performed through the Chrome Store which supported decent analytics, A/B versioning, and an employee only download portal.
 
 ---
 
