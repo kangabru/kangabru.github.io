@@ -49,7 +49,7 @@ Many steps were taken to improve usability, for example:
 Had I continued with `QM` development I would have liked to build a UI to make selection and actioning more visual. Subsequent tools such a [Visbug](https://github.com/GoogleChromeLabs/ProjectVisBug) implement this well.
 
 {:.img-with-text}
-![Quick Mocks features page](/images/quickmocks_features.png)
+![Quick Mocks features page](/images/quickmocks_features.gif)
 `QM` feature search and explanation page.
 
 Other challenges involved getting users to think about a website's structure. Block elements typically display vertically, but inline ones horizontally. The sibling selector action used the left/right arrows, so if elements were displayed vertically, then pressing right to select the element underneath was confusing.
