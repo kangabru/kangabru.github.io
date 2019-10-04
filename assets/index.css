@@ -103,7 +103,7 @@ pre {
 .tags>*,
 .tag {
     font-size          : 0.9em;
-    color              : var(--colour-primary) !important;
+    color              : var(--colour-primary-dark) !important;
     background-color   : white;
     padding            : 0.3rem 0.6rem;
     margin             : 0 0.3rem 0.3rem 0;
@@ -120,7 +120,6 @@ pre {
 
 .tags>a:hover,
 .tags>a:focus {
-    color           : var(--colour-primary-dark) !important;
     background-color: #f8f8f8;
 }
 
