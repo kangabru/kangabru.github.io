@@ -21,7 +21,7 @@ Not sure where to start? Check out my favourite projects:
 
 {{ post.description }}
 
-<img class="image-medium" src="{{ post.image_url }}"/>
+<a href="{{ post.url }}"><img class="image-medium" src="{{ post.image_url }}"/></a>
 
 {% include tags.html tags=post.tags %}
 

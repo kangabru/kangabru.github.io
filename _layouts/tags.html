@@ -9,7 +9,7 @@ layout: post
 
 <p>{{ post.description }}</p>
 
-<img class="image-medium" src="{{ post.image_url }}" />
+<a href="{{ post.url }}"><img class="image-medium" src="{{ post.image_url }}" /></a>
 
 <p>{% include tags.html tags=post.tags %}</p>
 
