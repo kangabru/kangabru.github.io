@@ -1,37 +1,54 @@
+/* Main layout styles */
+
+:root {
+    --colour-primary     : #84c3f3;
+    --colour-primary-dark: #65b4f0;
+}
+
 html {
-    border-top: 0.3rem solid #ffb84d;
+    border-top: 0.3rem solid var(--colour-primary);
 }
 
-.tags {
-    display  : flex;
-    flex-wrap: wrap;
+header {
+    background-color: #fafafa;
+    padding         : 20px !important;
+    padding-left    : 0 !important;
+    border-radius   : 10px;
+    display         : flex;
+    flex-wrap       : wrap;
+    border-top      : 4px solid var(--colour-primary);
+    border-bottom   : 4px solid var(--colour-primary);
+    box-shadow      : 0 6px 18px -2px rgba(50, 50, 93, .1), 0 3px 7px -3px rgba(0, 0, 0, .1);
 }
 
-.tags>*,
-.tag {
-    font-size          : 0.9em;
-    color              : white !important;
-    background-color   : #84c3f3;
-    padding            : 0.3rem 0.6rem;
-    margin             : 0 0.3rem 0.3rem 0;
-    border-radius      : 0.3rem;
-    -webkit-user-select: none;
-    -moz-user-select   : none;
-    -ms-user-select    : none;
-    user-select        : none;
-    font-weight        : normal !important;
+.header-image {
+    flex-basis  : 250px;
+    margin      : 0 auto 20px;
+    padding-left: 20px;
 }
 
-.tags>a:hover,
-.tags>a:focus {
-    background-color: #65b4f0;
+.header-title {
+    font-size: 1.2em;
 }
 
-.date {
-    font-size   : 1.2em;
-    color       : #888;
-    margin-right: 20px;
+@media print,
+screen and (max-width: 960px) {
+    .header-image {
+        flex-basis: 200px;
+    }
 }
+
+.header-content {
+    flex-basis  : 300px;
+    flex-grow   : 1;
+    padding-left: 20px;
+}
+
+section {
+    border: none !important;
+}
+
+/* Default element styles */
 
 blockquote {
     box-sizing : border-box;
@@ -62,53 +79,67 @@ blockquote::after {
     bottom: 0;
 }
 
-header {
-    background-color: #fefbee;
-    padding         : 20px !important;
-    padding-left    : 0 !important;
-    border-radius   : 10px;
-    display         : flex;
-    flex-wrap       : wrap;
+code,
+pre {
+    background-color: #faf9f4;
+    padding         : 4px 6px;
+    border-radius   : 3px;
+    font-family     : "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.header-image {
-    flex-basis  : 250px;
-    margin      : 0 auto 20px;
-    padding-left: 20px;
+.tags {
+    display  : flex;
+    flex-wrap: wrap;
 }
 
-.header-content {
-    flex-basis  : 300px;
-    flex-grow   : 1;
-    padding-left: 20px;
+/* Custom styles */
+
+.date {
+    font-size   : 1.2em;
+    color       : #888;
+    margin-right: 20px;
 }
 
-section {
-    border: none !important;
+.tags>*,
+.tag {
+    font-size          : 0.9em;
+    color              : var(--colour-primary) !important;
+    background-color   : white;
+    padding            : 0.3rem 0.6rem;
+    margin             : 0 0.3rem 0.3rem 0;
+    border-radius      : 0.3rem;
+    -webkit-user-select: none;
+    -moz-user-select   : none;
+    -ms-user-select    : none;
+    user-select        : none;
+    font-weight        : normal !important;
+    position           : relative;
+    margin-right       : 6px;
+    box-shadow         : 0 2px 4px rgba(50, 50, 93, .11), 0 1px 2px rgba(0, 0, 0, .08);
+}
+
+.tags>a:hover,
+.tags>a:focus {
+    color           : var(--colour-primary-dark) !important;
+    background-color: #f8f8f8;
 }
 
 .big-link,
 .big-link:hover,
 .big-link:focus {
-    background-color: #84c3f3;
+    background-color: var(--colour-primary);
     color           : white;
     padding         : 10px 15px;
-    border-radius   : 10px;
+    border-radius   : 4px;
     white-space     : nowrap;
     font-weight     : bold;
     position        : relative;
+    margin-right    : 6px;
+    box-shadow      : 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .big-link:hover {
-    background-color: #65b4f0;
-}
-
-.big-link.alt {
-    background-color: #ffb84d;
-}
-
-.big-link.alt:hover {
-    background-color: #ffa63a;
+    background-color: var(--colour-primary-dark);
 }
 
 .image-small {
@@ -132,12 +163,4 @@ section {
     margin-right: auto;
     margin-left : auto;
     text-align  : center;
-}
-
-code,
-pre {
-    background-color: #faf9f4;
-    padding         : 4px 6px;
-    border-radius   : 3px;
-    font-family     : "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
