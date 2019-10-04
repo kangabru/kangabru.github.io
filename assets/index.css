@@ -104,6 +104,11 @@ video {
     margin-right: 20px;
 }
 
+.date-inline {
+    font-weight: bold;
+    color      : #555;
+}
+
 .tags>*,
 .tag {
     font-size          : 0.9em;
