@@ -87,12 +87,16 @@ pre {
     font-family     : "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+video {
+    max-width: 100%;
+}
+
+/* Custom styles */
+
 .tags {
     display  : flex;
     flex-wrap: wrap;
 }
-
-/* Custom styles */
 
 .date {
     font-size   : 1.2em;
