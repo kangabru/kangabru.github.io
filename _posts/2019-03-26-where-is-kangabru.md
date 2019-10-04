@@ -68,6 +68,7 @@ This is a single page application built from the ground up by me. The app utilis
 - Home page data is loaded in a single DB read, as is the data for each individual album.
 - Server calls, larger client side processes, and UI rendering are all async.
 - Thumbnails are used extensively to improve loading speed and animation performance.
+- `Firebase` handles content delivery which uses Google's global CDN and servers.
 
 ### ![JS Packages](/icons/javascript.png) JS Packages
 - `Tailwinds`: A fantastic library which generates atomic `CSS` utility classes. It helps prevent breakages, simplifies responsive design, and reduces the size of stylesheets through the app.
