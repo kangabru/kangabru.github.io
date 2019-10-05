@@ -3,7 +3,7 @@ layout: post
 ---
 
 {% for post in site.posts %}
-{% if post.hidden != 1 and post.title != "" and post.tags contains page.tag %}
+{% if post.hidden != true and post.title != "" and post.tags contains page.tag %}
 {% include postSummary.html data=post %}
 {% endif %}
 {% endfor %}

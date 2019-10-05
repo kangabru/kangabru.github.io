@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Where is Kangabru? Mistakes and Challenges
-hidden: 1
+hidden: true
 ---
 
 [Back to original article here]({% post_url 2019-03-26-where-is-kangabru %}){:.big-link}

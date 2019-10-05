@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thesis Beam Analysis Tool - Background
-hidden: 1
+hidden: true
 ---
 
 [Back to original article here]({% post_url 2014-01-01-thesis %}){:.big-link}

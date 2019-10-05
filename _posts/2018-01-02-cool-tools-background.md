@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cool Tools for Git - Background
-hidden: 1
+hidden: true
 ---
 
 [Back to original article here]({% post_url 2018-01-02-cool-tools %}){:.big-link}

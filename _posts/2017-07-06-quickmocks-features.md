@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quick Mocks - Features
-hidden: 1
+hidden: true
 ---
 
 [Back to original article here]({% post_url 2017-07-06-quickmocks %}){:.big-link}
