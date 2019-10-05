@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Cool Tools for GIT
-description: Handy extensions that enhanced and integrated various <code>GIT</code> related services at a previous company.
+title: Cool Tools for Git
+description: Handy extensions that enhanced and integrated various <code>Git</code> related services at a previous company.
 when: 2018
 image_url: /images/cool_tools.jpg
-tags: [GIT, JS, Python]
+tags: [Git, JS, Python]
 ---
 
 ## Key Points
@@ -94,7 +94,7 @@ Improved the look of tests that timed out in Team City.
 - Jira and Bitbucket extensions made use of the [Atlassian User Interface](https://docs.atlassian.com/aui/) to ensure UI changes were visually consistent.
 
 ### ![Bildebeest](/icons/bildebeest.png) Bildebeest
-- Written in `Python` and directly integrated with `GIT`, Jira, and Bitbucket services.
+- Written in `Python` and directly integrated with `Git`, Jira, and Bitbucket services.
 - Secured auth details via the operating system credential manager.
 - Distributed to users via an internal tooling platform.
 - Functioned as a system tray app which users simply clicked on to activate.

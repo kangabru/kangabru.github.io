@@ -1,5 +1,5 @@
 ---
 layout: tags
-title: "Tag: GIT"
-tag: "GIT"
+title: "Tag: Git"
+tag: "Git"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cool Tools for GIT - Background
+title: Cool Tools for Git - Background
 hidden: 1
 ---
 
@@ -8,7 +8,7 @@ hidden: 1
 
 ---
 
-`GIT` was the version control system of choice at a previous company who made use of the following online services:
+`Git` was the version control system of choice at a previous company who made use of the following online services:
 - [Jira](https://www.atlassian.com/software/jira) for issue tracking.
 - [Bitbucket](https://bitbucket.org) as the online repository and code review platform.
 - [Team City](https://www.jetbrains.com/teamcity/) for automated tests and code deployment.
@@ -19,7 +19,7 @@ Good question!
 </blockquote>
 
 Firstly, you must understand that the codebase was setup as follows:
-- Hundreds of independent 'apps' were contained in separated `GIT` repos.
+- Hundreds of independent 'apps' were contained in separated `Git` repos.
 - Features often required changes in multiple apps as apps were highly integrated.
 - Deploying a single feature could therefore require one to review, track, and deploy code over multiple repos.
 
@@ -33,7 +33,7 @@ They were often lacking given our specific setup:
 - Services required manual integration. For example if a Team City build failed, we had to manually find the Jira issue or Bitbucket pull request.
 - Finding code, fetching it locally, then building it all took time. More apps meant more work.
 
-The `GIT` tools fixed these types of issues and simplified the lives of developers in this multi-repo world.
+The `Git` tools fixed these types of issues and simplified the lives of developers in this multi-repo world.
 
 ---
 

@@ -58,7 +58,7 @@ This web app was built in `Django` and deployed on `Heroku` with a `Postgres` da
 
 ### ![Heroku](/icons/heroku.png) Heroku
 - A [PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service) used to host the `Django` server and `Postgres` DB.
-- Makes deployment is super easy. Simply push to a `GIT` repo and `Heroku` handles the rest.
+- Makes deployment is super easy. Simply push to a `Git` repo and `Heroku` handles the rest.
 - The app was built for me and is hosted privately. Their free and dev tiered products are perfect for this use case.
 
 ### ![JS](/icons/javascript.png) Front End
