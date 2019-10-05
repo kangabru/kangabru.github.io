@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% for post in site.posts %}
+    {% if post.hidden != 1 %}
+        {% include postSummary.html data=post %}
+    {% endif %}
+{% endfor %}

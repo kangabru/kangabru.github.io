@@ -3,19 +3,8 @@ layout: post
 ---
 
 {% for post in site.posts %}
-{% if post.hidden != 1 and post.tags contains page.tag %}
-
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-
-<p><span class="date-inline">{{ post.when }}</span><span> | {{ post.description }}</span></p>
-
-
-<a href="{{ post.url }}"><img class="image-medium" src="{{ post.image_url }}" /></a>
-
-<p>{% include tags.html tags=post.tags %}</p>
-
-<hr>
-
+{% if post.hidden != 1 and post.title != "" and post.tags contains page.tag %}
+{% include postSummary.html data=post %}
 {% endif %}
 {% endfor %}
 

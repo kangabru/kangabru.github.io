@@ -1,0 +1,49 @@
+{% assign data=include.data %}
+
+{% if include.isPostLayout %}
+
+    <h1>{{ data.title }}</h1>
+
+    {% if data.when %}
+    <p>
+        <span class="date">{{ data.when }}</span>
+        {% if data.link %}
+        <a href="{{ data.link }}" class="big-link" target="_blank">View it live here</a>
+        {% endif %}
+    </p>
+    {% endif %}
+
+    {% if data.description %}
+    <p>
+        {{ data.description }}
+        {% include tags.html tags=data.tags %}
+    </p>
+    {% endif %}
+
+    {% if data.image_url %}
+    <img class="image-data" src="{{ data.image_url }}" />
+    {% endif %}
+
+{% else %}
+
+    {% if data.title %}
+    <h2><a href="{{ data.url }}">{{ data.title }}</a></h2>
+    {% endif %}
+
+    {% if data.description %}
+    <p>
+        {% if data.image_url %}
+            <span class="date-inline">{{ data.when }}</span>
+        {% endif %}
+        <span> | {{ data.description }}</span>
+        {% include tags.html tags=data.tags %}
+    </p>
+    {% endif %}
+
+    {% if data.image_url %}
+    <p><a href="{{ data.url }}"><img class="image-medium" src="{{ data.image_url }}" /></a></p>
+    {% endif %}
+
+{% endif %}
+
+<hr>

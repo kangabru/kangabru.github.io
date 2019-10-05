@@ -1,32 +1,8 @@
 ---
-link_home: 1
 layout: default
+link_home: 1
 ---
 
-<h1>{{ page.title }}</h1>
-
-{% if page.when or page.link %}
-<p>
-    {% if page.when %}
-    <span class="date">{{ page.when }}</span>
-    {% endif %}
-
-    {% if page.link %}
-    <a href="{{ page.link }}" class="big-link" target="_blank">View it live here</a>
-    {% endif %}
-</p>
-{% endif %}
-
-{% if page.description %}
-<p>{{ page.description }}</p>
-{% endif %}
-
-{% if page.image_url %}
-<img class="image-post" src="{{ page.image_url | relative_url }}" />
-{% endif %}
-
-{% include tags.html tags=page.tags %}
-
-<hr>
+{% include postSummary.html data=page isPostLayout=true %}
 
 {{ content }}
