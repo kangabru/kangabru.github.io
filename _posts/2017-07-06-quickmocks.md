@@ -4,11 +4,11 @@ title: Quick Mocks
 description: Originally a 'Hack Day' project, this UI mocking utility became loved by devs and designers alike at a prior company. I won 3 awards and a significant windfall for developing it.
 when: Jun 2017 - Nov 2018
 image_url: /images/quickmocks.png
-tags: [Jquery, JS, Chrome Extension, Google Analytics]
+tags: [jQuery, JS, Chrome Extension, Google Analytics]
 ---
 
 ## Key Points
-- A `Jquery` based Chrome extension which brings powerful website editing capabilities to _any_ web page.
+- A `jQuery` based Chrome extension which brings powerful website editing capabilities to _any_ web page.
 - Was well received and used by 300+ users in a 1000+ person company.
 - As the sole developer I won 3 high profile awards and recognition from the CEO and R&D Director.
 
@@ -75,11 +75,11 @@ Some other cool features:
 - `ALT + Click` is used to select one or more elements. These are styled by a `CSS` class.
 - Upon action (e.g. duplicate), selected elements are found by that `CSS` class, then code is run to apply the action to each element independently.
 
-### ![Jquery](/icons/jquery.png) Jquery
+### ![jQuery](/icons/jQuery.png) jQuery
 - Used to handle `CSS` selection and `HTML` manipulation with little code.
-- Many basic `HTML` actions like copy/paste/delete were already provided by `Jquery` which made initial development very easy.
+- Many basic `HTML` actions like copy/paste/delete were already provided by `jQuery` which made initial development very easy.
 - Natively supports multiple element actions. For instance the 'delete' action is a simple 'elements.delete()' action and works for any number of elements without loops.
-- `QM` constantly modifies classes and interacts with `HTML` elements. At the time `Jquery` was the easiest and cleanest way to do this.
+- `QM` constantly modifies classes and interacts with `HTML` elements. At the time `jQuery` was the easiest and cleanest way to do this.
 
 ### ![Chrome](/icons/chrome.png) Chrome Extension
 - A browser extension is the only way to inject `QM`-like functionality into every webpage. Chrome was the dev browser of choice which made it the primary supported browser.

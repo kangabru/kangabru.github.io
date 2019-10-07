@@ -4,7 +4,7 @@ title: Cool Tools for Git
 description: Handy extensions that enhanced and integrated various <code>Git</code> related services at a previous company.
 when: 2018
 image_url: /images/cool_tools.jpg
-tags: [Git, JS, Python]
+tags: [Git, JS, Python, CSS]
 ---
 
 ## Key Points

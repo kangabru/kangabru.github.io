@@ -1,5 +1,5 @@
 ---
 layout: tags
-title: "Tag: Jquery"
-tag: "Jquery"
+title: "Tag: jQuery"
+tag: "jQuery"
 ---

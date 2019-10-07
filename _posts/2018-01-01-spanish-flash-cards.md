@@ -4,7 +4,7 @@ title: Spanish Flash Card Web App
 description: A bespoke flash card web app built with <code>Django</code> used to teach myself Spanish vocabulary quickly using data to analyse my progress.
 when: Jan 2018
 image_url: /images/spanish.png
-tags: [Python, JS, Jquery, Ajax, Django, Heroku, PostgreSQL, SQLite]
+tags: [Python, JS, jQuery, Ajax, Django, Heroku, PostgreSQL, SQLite, HTML, CSS]
 ---
 
 ## Key Points
@@ -63,5 +63,5 @@ This web app was built in `Django` and deployed on `Heroku` with a `Postgres` da
 
 ### ![JS](/icons/javascript.png) Front End
 - `HTML` is built dynamically through `Django` and its templates. No frontend libraries are used for rendering.
-- `Jquery` is used for interactivity and handling server API calls through `Ajax` using `JSON`.
+- `jQuery` is used for interactivity and handling server API calls through `Ajax` using `JSON`.
 - Phrases are returned in batches and the API is called in advanced in order to eliminate lag under heavy use.
