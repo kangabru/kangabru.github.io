@@ -173,3 +173,10 @@ video {
     margin-left : auto;
     text-align  : center;
 }
+
+.video-tag {
+    background-color: #eee;
+    border-radius   : 0.3rem;
+    padding         : 0.1rem 0.3rem;
+    pointer-events  : none;
+}

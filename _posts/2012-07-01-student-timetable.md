@@ -30,15 +30,7 @@ Some features include:
 
 ---
 
-<div class="img-with-text">
-    <video controls autoplay loop width="500">
-    <source src="/images/student_timetable_ui.mp4" type="video/mp4">
-    </video>
-    <br>
-    <span>(Video) Look at that menu spin!</span>
-    <br>
-    <br>
-</div>
+{% include video.html file="/images/student_timetable_ui.mp4" text="Look at that menu spin!" %}
 
 ---
 

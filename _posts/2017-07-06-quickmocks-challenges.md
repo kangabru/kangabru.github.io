@@ -26,15 +26,7 @@ Thankfully [developers are awesome](https://github.com/gildas-lormeau/SingleFile
 - I had to build a UI to indicate the various stages of download. Downloads were sometimes fickle and my UI had to indicate why.
 - The final challenge: re-saving. This is where the user was required to save through Chrome, and not the extension. Work and user testing was done to make the distinction between the 'compression' and 'save' processes. More of a UX issue but a challenge nonetheless.
 
-<div class="img-with-text">
-    <video controls autoplay loop width="250">
-    <source src="/images/quickmock_vids/save.mp4" type="video/mp4">
-    </video>
-    <br>
-    <span>(Video) Save and compression into a single file.</span>
-    <br>
-    <br>
-</div>
+{% include video.html file="/images/quickmock_vids/save.mp4" text="Save and compression into a single file." %}
 
 ---
 

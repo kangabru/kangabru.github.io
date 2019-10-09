@@ -27,15 +27,7 @@ Think of the browser 'inspector' tool, but on steroids!<br>
 
 ---
 
-<div class="img-with-text">
-    <video controls autoplay loop>
-    <source src="/images/quickmock_vids/replace.mp4" type="video/mp4">
-    </video>
-    <br>
-    <span>(Video) Example 'replace' feature.</span>
-    <br>
-    <br>
-</div>
+{% include video.html file="/images/quickmock_vids/replace.mp4" text="Example 'replace' feature." %}
 
 ---
 

@@ -18,39 +18,15 @@ Whilst never realised into a fully fledged game, this summer project served as a
 
 ---
 
-<div class="img-with-text">
-    <video controls autoplay loop width="500">
-    <source src="/images/galactic_reign_ui.mp4" type="video/mp4">
-    </video>
-    <br>
-    <span>(Video) The planet is key to the game, so the menu displays it front and centre. Notice that the land mass drifts, and the rings orbit around the planet gracefully.</span>
-    <br>
-    <br>
-</div>
+{% include video.html file="/images/galactic_reign_ui.mp4" text="The planet is key to the game, so the menu displays it front and centre. Notice that the land mass drifts, and the rings orbit around the planet gracefully." %}
 
 ---
 
-<div class="img-with-text">
-    <video controls autoplay loop width="500">
-    <source src="/images/galactic_reign_game.mp4" type="video/mp4">
-    </video>
-    <br>
-    <span>(Video) The aim of the game is survival. Destroy the rain of asteroids that come your way with various weapons.</span>
-    <br>
-    <br>
-</div>
+{% include video.html file="/images/galactic_reign_game.mp4" text="The aim of the game is survival. Destroy the rain of asteroids that come your way with various weapons." %}
 
 ---
 
-<div class="img-with-text">
-    <video controls autoplay loop width="500">
-    <source src="/images/galactic_reign_menu.mp4" type="video/mp4">
-    </video>
-    <br>
-    <span>(Video) The game features cool animations like this seamless masking interaction with the menu.</span>
-    <br>
-    <br>
-</div>
+{% include video.html file="/images/galactic_reign_menu.mp4" text="The game features cool animations like this seamless masking interaction with the menu." %}
 
 ---
 

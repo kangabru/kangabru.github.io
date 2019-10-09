@@ -1,0 +1,12 @@
+{% if include.file and include.text  %}
+<div class="img-with-text">
+    <video controls autoplay loop>
+        <source src="{{ include.file }}" type="video/mp4">
+    </video>
+    <br>
+    <span class="video-tag">Video</span>
+    <span>{{ include.text }}</span>
+    <br>
+    <br>
+</div>
+{% endif %}
