@@ -5,10 +5,16 @@
     <h1>{{ data.title }}</h1>
 
     {% if data.when %}
-    <p>
+    <p class="post-actions-container">
         <span class="date">{{ data.when }}</span>
         {% if data.link %}
         <a href="{{ data.link }}" class="big-link" target="_blank">View it live here</a>
+        {% endif %}
+        {% if data.github %}
+        <a href="{{ data.github }}" class="big-link github-link" target="_blank">
+            <img alt="Github Icon" src="/icons/github_small.png" class="github-button-icon" />
+            <span>View on GitHub</span>
+        </a>
         {% endif %}
     </p>
     {% endif %}

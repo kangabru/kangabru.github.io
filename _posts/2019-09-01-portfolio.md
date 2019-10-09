@@ -6,6 +6,7 @@ when: Sep 2019
 image_url: /images/portfolio.jpg
 tags: [Markdown, Jekyll, Liquid, Python]
 link: /
+github: https://github.com/kangabru/kangabru.github.io/
 ---
 
 ## Key Points

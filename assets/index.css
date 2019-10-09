@@ -44,6 +44,17 @@ screen and (max-width: 960px) {
     padding-left: 20px;
 }
 
+.post-actions-container {
+    display      : flex;
+    flex-wrap    : wrap;
+    align-items  : center;
+    margin-bottom: 15px;
+}
+
+.post-actions-container>* {
+    margin-bottom: 6px;
+}
+
 section {
     border: none !important;
 }
@@ -179,4 +190,15 @@ video {
     border-radius   : 0.3rem;
     padding         : 0.1rem 0.3rem;
     pointer-events  : none;
+}
+
+a.big-link.github-link {
+    padding-left: 9px;
+}
+
+.github-button-icon {
+    vertical-align: middle;
+    margin-right  : 3px;
+    height        : 20px;
+    margin-top    : -3px;
 }
