@@ -34,6 +34,10 @@ Ability to summarise media content into a [contact sheet](https://en.wikipedia.o
 
 ---
 
+{% include video.html file="/images/glacier_restore.mp4" text="Navigate local files, and restore or download archived ones." %}
+
+---
+
 ## Tech Specs
 
 Originally all functionality was performed through a collection of `Python` scripts. These scripts enabled me to summarise and perform my initial backup before embarking on an extended trip. The `Electron` part came after-the-fact and wraps the original logic in a nice and friendly UI.
