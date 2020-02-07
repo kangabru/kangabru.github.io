@@ -11,10 +11,7 @@
         <a href="{{ data.link }}" class="big-link" target="_blank">View it live here</a>
         {% endif %}
         {% if data.github %}
-        <a href="{{ data.github }}" class="big-link github-link" target="_blank">
-            <img alt="Github Icon" src="/icons/github_small.png" class="github-button-icon" />
-            <span>View on GitHub</span>
-        </a>
+            {% include github_link.html link=data.github %}
         {% endif %}
     </p>
     {% endif %}
