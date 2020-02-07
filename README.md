@@ -21,3 +21,13 @@ Follow these instructions to run Jekyll and test your site locally without deplo
 - Run Jekyll: `$ jekyll serve`
 
 Jekyll will then generate all necessary files and host them at [http://localhost:4000/](http://localhost:4000/) for you to test out.
+
+### Update Tag Pages
+
+Tags require special tag pages. Update or generate these via:
+
+`$ python src/generate_tags.py`
+
+### Tests
+
+Run python tests in the `src` folder to verify urls and tags.
