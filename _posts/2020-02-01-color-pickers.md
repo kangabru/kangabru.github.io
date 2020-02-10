@@ -44,4 +44,4 @@ Identify colors by name like 'pink' or 'purple' using this color picker identifi
 - Use the default color names or create your own. The app also ships with additional name lists such as [CSS](https://www.w3schools.com/colors/colors_groups.asp), [xkcd](https://xkcd.com/color/rgb/), and even [Crayola](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors) color names.
 - Useful for color-blind users who struggle to differentiate between subtle color differences.
 
-[Read about how the app was made]({% post_url 2020-02-01-color-pickers-tech-specs %}){:.big-link}
+[Read about how the app was made]({% post_url 2020-02-01-color-pickers-tech-specs %}#color-identifier){:.big-link}

@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Color Pickers - How do they work?
-hidden: True
+hidden: true
+---
+
+[Back to original article here]({% post_url 2020-02-01-color-pickers %}){:.big-link}
+
 ---
 
 ## Tech Specs
@@ -9,6 +13,8 @@ hidden: True
 - Both apps were built in `Qt` using `Python` which support all desktop operating systems.
 - `Qt` includes many useful classes that make dealing with colors and pixels very easy.
 - Apps are packaged into single executable files via [Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/).
+
+---
 
 ## Skin Tone Checker
 
@@ -58,8 +64,12 @@ The following optional color name lists are shipped with the program:
 - All [CSS](https://www.w3schools.com/colors/colors_groups.asp) color names - useful for web developers.
 - The [xkcd](https://xkcd.com/color/rgb/) color name list.
 - Common [Crayola](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors) color names.
-- User can of course make their own lists too.
+- Users can [make their own lists](https://github.com/kangabru/color-identifier/blob/master/colors/readme.md) too of course.
 
 ### Finding The Closest Color In Code
 
 The program initially loads the internal or an external color name list into memory. Once a color is sampled, this internal list is simply checked against for color closeness. The closest color name is then displayed to the user. There are [a number of ways](https://en.wikipedia.org/wiki/Color_difference) to measure the difference between two colors, but this app uses the [Euclidean](https://en.wikipedia.org/wiki/Color_difference#Euclidean) formula.
+
+---
+
+[Back to original article here]({% post_url 2020-02-01-color-pickers %}){:.big-link}

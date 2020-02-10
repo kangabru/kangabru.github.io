@@ -34,9 +34,9 @@ Here were some popular ones:
 ![Image of Bildebeest logo](/images/cool_tools_bildebeest.jpg){:.image-small}<br>
 Like a Wildebeest, this tool was all about speed and power. We also liked naming tools after animals.
 
-Bildebeest (builder beast) was a desktop app used to build apps quickly when testing code locally. It was written in `Python` and integrated with Jira and Bitbucket
+Bildebeest (builder beast) was a desktop app used to build apps quickly when testing code locally. It was written in `Python` and integrated with Jira and Bitbucket.
 
-Often you needed to download and build code from multiple repos. It took many dozens of clicks to find a branch, download it, and build it - _and that was just for one app!_ With Bildebeest you simply entered in a Jira number, then Bildebeest would fetch all of necessary code and build the apps asynchronously. This reduced a 5+ minute workflow to under 20s.
+Often you needed to download and build code from multiple repos. It took many dozens of clicks to find a branch, download it, and build it - _and that was just for one app!_ With Bildebeest you simply clicked a button in Jira or Bitbucket, then Bildebeest would fetch all of necessary code and build the apps asynchronously. This reduced a 5+ minute workflow down to under 20s - activated by a _single_ click.
 
 <blockquote>
 BILDEBEEST IS AWESOME!!<br>

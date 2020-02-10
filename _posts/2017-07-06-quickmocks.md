@@ -49,7 +49,7 @@ A test friendly environment where users can practice actions.
 
 Some other cool features:
 - All actions support multi-element manipulation. Want to change 5 icons at once? No problem. Need to duplicate a particular button for every card on screen? Easy-as. Multi-element support is very powerful when used correctly.
-- Copy and paste is available across tabs. Copied data isn't simply text, it's a collection of independent `HTML` elements. You can select 5 different text fields on screen, then replace them with 5 icons from another screen. Very useful.
+- Copy and paste is available across tabs. Copied data isn't simply text, it's a collection of independent `HTML` elements. For instance you can select 5 different text fields on screen, then replace them with 5 icons from another screen. Very useful.
 
 ---
 
