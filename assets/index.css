@@ -202,3 +202,15 @@ a.big-link.github-link {
     height        : 20px;
     margin-top    : -3px;
 }
+
+h1.inline-header {
+    float: left;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+a.inline-github-link {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
