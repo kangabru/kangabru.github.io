@@ -227,3 +227,7 @@ a.inline-github-link {
 .big-link:hover {
     transform: scale(1.05);
 }
+
+.grow-more:hover {
+    transform: scale(1.2);
+}
