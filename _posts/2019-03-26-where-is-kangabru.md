@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Where is Kangabru?
+ref: kangabru
 description: Like, where is he man? Well this site lets you find out! Originally built for friends and family, this web app lets you explore my adventures with a map and pretty photos.
 when: Mar 2019
 image_url: /images/wikb_home.jpg

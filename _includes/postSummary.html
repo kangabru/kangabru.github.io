@@ -30,7 +30,7 @@
 {% else %}
 
     {% if data.title %}
-    <h2><a href="{{ data.url }}">{{ data.title }}</a></h2>
+    <h2 id="{{ data.ref }}"><a href="{{ data.url }}">{{ data.title }}</a></h2>
     {% endif %}
 
     {% if data.description %}

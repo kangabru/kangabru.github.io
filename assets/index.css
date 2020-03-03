@@ -6,7 +6,8 @@
 }
 
 html {
-    border-top: 0.3rem solid var(--colour-primary);
+    border-top     : 0.3rem solid var(--colour-primary);
+    scroll-behavior: smooth;
 }
 
 header {
