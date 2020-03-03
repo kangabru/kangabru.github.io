@@ -2,7 +2,12 @@
 layout: default
 ---
 
-{{ content }}
+<div class="content-shadow">
+    <div class="content">
+        {{ content }}
+    </div>
+    <div class="content-angle"></div>
+</div>
 
 {% for post in site.posts %}
 {% if post.hidden != true %}
