@@ -236,6 +236,7 @@ a.inline-github-link {
 .content {
     background-color: var(--colour-primary);
     padding         : 20px;
+    padding-bottom  : 12px;
     margin-bottom   : 30px;
     background-color: #fafafa;
 }
