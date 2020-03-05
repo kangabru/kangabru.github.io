@@ -13,3 +13,6 @@ class TestTags(unittest.TestCase):
 
         file_tags = set([basename(tag_file).replace('.md', '') for tag_file in tag_files])
         self.assertEqual(tags, file_tags)
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,6 +1,6 @@
 import unittest
 from urllib.request import urlopen, HTTPError
-from src.link_helper import get_files_from_pattern, get_links_from_file, get_http_response
+from link_helper import get_files_from_pattern, get_links_from_file, get_http_response
 from typing import Tuple
 
 
@@ -22,9 +22,16 @@ class TestLinks(unittest.TestCase):
             get_summary = lambda file_path, link, code: f"Url '{link}' in file '{file_path}' is not valid ({code})."
             return '\n'.join([get_summary(*summary) for summary in links])
 
+        has_errors = len(iffy_links) + len(failed_links)
         if len(iffy_links):
             print("Manually check these links:")
             print(links_summary(iffy_links))
 
         if len(failed_links):
             self.fail(links_summary(failed_links))
+
+        if not has_errors:
+            print("All links look good")
+
+if __name__ == "__main__":
+    unittest.main()
