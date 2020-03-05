@@ -297,3 +297,54 @@ a.inline-github-link {
     color           : #222;
     background-color: hsl(36, 82%, 65%);
 }
+
+.text-highlight {
+    overflow     : hidden;
+    position     : relative;
+    padding      : 5px 8px;
+    margin-left  : -10px;
+    width        : min-content;
+    white-space  : nowrap;
+    border-radius: 4px;
+}
+
+.text-highlight:after {
+    content                   : '';
+    position                  : absolute;
+    height                    : 100%;
+    width                     : 100%;
+    top                       : 0;
+    right                     : 0;
+    z-index                   : -1;
+    background                : var(--colour-primary);
+    transform                 : translate3d(101%, 0, 0);
+    transition                : transform 200ms;
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.post:hover>.text-highlight:after,
+.text-highlight:hover:after {
+    transform: translate3d(0, 0, 0);
+}
+
+.text-highlight>a {
+    display : block;
+    position: relative;
+}
+
+.text-highlight a:before {
+    content                   : attr(data-letters);
+    position                  : absolute;
+    color                     : #fff;
+    left                      : 0;
+    overflow                  : hidden;
+    white-space               : nowrap;
+    width                     : 0%;
+    transition                : width 200ms;
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.post:hover>.text-highlight>a:before,
+.text-highlight:hover>a:before {
+    width: 100%;
+}

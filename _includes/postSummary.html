@@ -2,41 +2,43 @@
 
 {% if include.isPostLayout %}
 
-    <h1>{{ data.title }}</h1>
+<h1>{{ data.title }}</h1>
 
-    {% if data.when %}
-    <p class="post-actions-container">
-        <span class="date">{{ data.when }}</span>
-        {% if data.link %}
-        <a href="{{ data.link }}" class="big-link" target="_blank">View it live here</a>
-        {% endif %}
-        {% if data.github %}
-            {% include github_link.html link=data.github %}
-        {% endif %}
-    </p>
+{% if data.when %}
+<p class="post-actions-container">
+    <span class="date">{{ data.when }}</span>
+    {% if data.link %}
+    <a href="{{ data.link }}" class="big-link" target="_blank">View it live here</a>
     {% endif %}
+    {% if data.github %}
+    {% include github_link.html link=data.github %}
+    {% endif %}
+</p>
+{% endif %}
 
-    {% if data.description %}
-    <p>
-        {{ data.description }}
-        {% include tags.html tags=data.tags %}
-    </p>
-    {% endif %}
+{% if data.description %}
+<p>
+    {{ data.description }}
+    {% include tags.html tags=data.tags %}
+</p>
+{% endif %}
 
-    {% if data.image_url %}
-    <img class="image-data" src="{{ data.image_url }}" />
-    {% endif %}
+{% if data.image_url %}
+<img class="image-data" src="{{ data.image_url }}" />
+{% endif %}
 
 {% else %}
 
+<div class="post">
     {% if data.title %}
-    <h2 id="{{ data.ref }}"><a href="{{ data.url }}">{{ data.title }}</a></h2>
+    <h2 class="text-highlight grow" id="{{ data.ref }}"><a data-letters="{{ data.title }}"
+            href="{{ data.url }}">{{ data.title }}</a></h2>
     {% endif %}
 
     {% if data.description %}
     <p>
         {% if data.image_url %}
-            <span class="date-inline">{{ data.when }}</span>
+        <span class="date-inline">{{ data.when }}</span>
         {% endif %}
         <span> | {{ data.description }}</span>
         {% include tags.html tags=data.tags %}
@@ -47,6 +49,7 @@
     <p><a href="{{ data.url }}"><img class="image-medium" src="{{ data.image_url }}" /></a></p>
     {% endif %}
 
-{% endif %}
+    {% endif %}
 
-<hr>
+    <hr>
+</div>
