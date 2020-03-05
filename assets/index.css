@@ -3,6 +3,7 @@
 :root {
     --colour-primary     : #84c3f3;
     --colour-primary-dark: #65b4f0;
+    --colour-alt         : #f3c886;
 }
 
 html {
@@ -219,13 +220,15 @@ a.inline-github-link {
 
 .grow,
 .tags>a,
-.big-link {
+.big-link,
+.job-alert {
     transition: transform 50ms ease-in-out;
 }
 
 .grow:hover,
 .tags>a:hover,
-.big-link:hover {
+.big-link:hover,
+.job-alert:hover {
     transform: scale(1.05);
 }
 
@@ -267,4 +270,30 @@ a.inline-github-link {
     transform-origin: left;
     z-index         : -1;
     border-bottom   : 4px solid var(--colour-primary);
+}
+
+.sidebar-contents {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.sidebar-contents>* {
+    margin-bottom: 5px;
+}
+
+.job-alert {
+    color           : #222;
+    font-weight     : bold;
+    background-color: var(--colour-alt);
+    border-radius   : 4px;
+    padding         : 5px 8px;
+    text-align      : center;
+    display         : inline-block;
+}
+
+.job-alert:hover,
+.job-alert:focus {
+    color           : #222;
+    background-color: hsl(36, 82%, 65%);
 }
