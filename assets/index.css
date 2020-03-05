@@ -351,3 +351,11 @@ a.inline-github-link {
 .text-highlight:hover>a:before {
     width: 100%;
 }
+
+.post {
+    transition: transform 150ms ease-in-out;
+}
+
+.post:hover {
+    transform: scale(1.01);
+}
