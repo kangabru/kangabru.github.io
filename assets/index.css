@@ -306,6 +306,7 @@ a.inline-github-link {
     width        : min-content;
     white-space  : nowrap;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .text-highlight:after {
@@ -330,6 +331,7 @@ a.inline-github-link {
 .text-highlight>a {
     display : block;
     position: relative;
+    height  : 1.2em;
 }
 
 .text-highlight a:before {
@@ -340,6 +342,7 @@ a.inline-github-link {
     overflow                  : hidden;
     white-space               : nowrap;
     width                     : 0%;
+    height                    : 100%;
     transition                : width 200ms;
     transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
